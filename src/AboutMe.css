@@ -1,0 +1,43 @@
+.AboutMe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.AboutMe h2{
+    color: #FFFFFF;
+    font-size: 37px;
+}
+
+.AboutMe-Content {
+    display: flex;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 50px;
+}
+
+.AboutMe-Content img {
+    width: 250px;
+    clip-path: circle();
+    padding-top: 3%;
+}
+
+.AboutMe-Content-Information {
+    margin-left: 150px;
+}
+
+.AboutMe-Content-Information h2 {
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.AboutMe-Content-Information h4 {
+    color: #B6B6B6;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+  
+.AboutMe-Content-Information p {
+    color: #C4C4C4;
+}

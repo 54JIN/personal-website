@@ -1,0 +1,59 @@
+.Experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Experience h2 {
+    color: #FFFFFF;
+    font-size: 37px;
+  }
+  
+  .Experience-Content {
+    width: 50vw;
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 150px;
+  }
+  
+  .Experience-Content-Tabs {
+    margin-right: 60px;
+  }
+  
+  .Experience-Content-Tabs ul {
+    list-style: none;
+  }
+  
+  .Experience-Content-Tabs button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  /* .Experience-Content-Tabs li {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  } */
+  
+  .Experience-Content-Information h2 {
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .Experience-Content-Information h4 {
+    color: #B6B6B6;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .Experience-Content-Information p {
+    color: #C4C4C4;
+  }

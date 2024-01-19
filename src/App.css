@@ -32,15 +32,38 @@ body {
   background-color: transparent;
   border: none;
   cursor: pointer;
+  --color: hsl(208,72%,39%);
   color: #C8C8C8;
   font-size: 21px;
-  transition: transform .2s;
+
+  position: relative;
+  isolation: isolate;
 }
 
-.Home-Header button:hover {
+.Home-Header button::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  inset: 0;
+  height: 3px;
+  color: #FFFFFF;
+  scale: 0 1;
+  transform-origin: right;
+  transition: scale 450ms;
+}
+
+.Home-Header button:hover::after,
+.Home-Header button:focus-visible::after {
+  color: #FFFFFF;
+  transform-origin: left;
+  scale: 1 1;
+}
+
+/* .Home-Header button:hover {
   color: #FFFFFF; 
   /* transform: ; */
-}
+/* } */
 
 .Home-Content {
   /* align-self: center; */
@@ -75,17 +98,40 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: #D09600;
+  --color: hsl(208, 72%, 39%);
+  /* --color: #601d4c; */
   color: #FFFFFF;
   border: none;
   font-weight: bold;
   font-size: 14px;
   cursor: pointer;
   transition: transform .4s;
+
+  position: relative;
+  isolation: isolate;
 }
 
-.Home-Content button:hover{
-  transform: scale(1.1);
+.Home-Content button::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  inset: 0;
+
+  scale: 0 1;
+  transform-origin: right;
+  transition: scale 450ms;
 }
+
+.Home-Content button:hover::after,
+.Home-Content button:focus-visible::after {
+  transform-origin: left;
+  scale: 1 1;
+}
+
+/* .Home-Content button:hover{
+  transform: scale(1.1);
+} */
 
 /* .Featured-Projects {
   display: flex;

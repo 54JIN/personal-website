@@ -273,6 +273,26 @@ body {
   }
 }
 
+@media only screen and (max-width: 1200px) {
+
+  .Other_Projects-Noteworthy {
+    display: grid;
+    grid-template-columns: 50% 25%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .Other_Projects h2 {
+    color: #FFFFFF;
+    font-size: 4.9vw;
+  }
+  
+  .Other_Projects-Noteworthy {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .Home-Content h1{
     font-size: 10vw;
@@ -313,6 +333,18 @@ body {
 
   .Featured h2 {
     color: #FFFFFF;
-    font-size: 8.9vw;
+    font-size: 4.9vw;
+  }
+  
+  .Other_Projects h2 {
+    color: #FFFFFF;
+    font-size: 4.9vw;
+  }
+  
+  .Other_Projects-Noteworthy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
   }
 }

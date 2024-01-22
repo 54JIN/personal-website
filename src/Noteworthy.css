@@ -1,0 +1,21 @@
+@media only screen and (max-width: 1000px) {
+    .Noteworthy {
+        display: flex;
+        justify-content: center;
+        width: 80vw;
+    }
+    .Noteworthy img{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Noteworthy {
+        display: flex;
+        justify-content: center;
+        width: 80vw;
+    }
+    .Noteworthy img{
+        width: 100%;
+    }
+}

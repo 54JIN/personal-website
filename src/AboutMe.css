@@ -6,38 +6,127 @@
 
 .AboutMe h2{
     color: #FFFFFF;
-    font-size: 37px;
+    font-size: 3.5vw;
 }
 
 .AboutMe-Content {
     display: flex;
-    margin-left: 350px;
-    margin-right: 350px;
-    margin-top: 50px;
+    margin-left: 9vw;
+    margin-right: 9vw;
+    margin-top: 2vw;
 }
 
 .AboutMe-Content img {
-    width: 250px;
+    width: 24vw;
     clip-path: circle();
     padding-top: 3%;
 }
 
 .AboutMe-Content-Information {
-    margin-left: 150px;
+    margin-left: 4vw;
 }
 
 .AboutMe-Content-Information h2 {
     color: #FFFFFF;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-size: 4vw;
 }
 
 .AboutMe-Content-Information h4 {
     color: #B6B6B6;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-size: 2vw;
 }
   
 .AboutMe-Content-Information p {
     color: #C4C4C4;
+    font-size: 1vw;
+}
+
+@media only screen and (max-width: 1000px) {
+    .AboutMe h2{
+        color: #FFFFFF;
+        font-size: 4.9vw;
+    }
+
+    .AboutMe-Content {
+        display: flex;
+        margin-left: 9vw;
+        margin-right: 9vw;
+        margin-top: 2vw;
+    }
+    
+    .AboutMe-Content img {
+        width: 24vw;
+        clip-path: circle();
+        padding-top: 3%;
+    }
+    
+    .AboutMe-Content-Information {
+        margin-left: 4vw;
+    }
+    
+    .AboutMe-Content-Information h2 {
+        color: #FFFFFF;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 4vw;
+    }
+    
+    .AboutMe-Content-Information h4 {
+        color: #B6B6B6;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 2vw;
+    }
+      
+    .AboutMe-Content-Information p {
+        color: #C4C4C4;
+        font-size: 1vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .AboutMe h2{
+        color: #FFFFFF;
+        font-size: 4.9vw;
+    }
+
+    .AboutMe-Content {
+        display: flex;
+        margin-left: 9vw;
+        margin-right: 9vw;
+        margin-top: 2vw;
+    }
+    
+    .AboutMe-Content img {
+        width: 24vw;
+        clip-path: circle();
+        padding-top: 3%;
+    }
+    
+    .AboutMe-Content-Information {
+        margin-left: 4vw;
+    }
+    
+    .AboutMe-Content-Information h2 {
+        color: #FFFFFF;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 4vw;
+    }
+    
+    .AboutMe-Content-Information h4 {
+        color: #B6B6B6;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 1.8vw;
+    }
+      
+    .AboutMe-Content-Information p {
+        color: #C4C4C4;
+        font-size: 1vw;
+    }
 }

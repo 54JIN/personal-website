@@ -49,27 +49,146 @@
   .Experience-Content-Tabs button:hover {
     background-color: gray;
   }
-
-  /* .Experience-Content-Tabs li {
-    color: #FFFFFF;
-    font-size: 20px;
-    font-weight: bold;
-    padding-top: 5px;
-    padding-bottom: 5px;
-  } */
   
   .Experience-Content-Information h2 {
     color: #FFFFFF;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-size: 2vw;
   }
   
   .Experience-Content-Information h4 {
     color: #B6B6B6;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-size: 1.5vw;
   }
   
   .Experience-Content-Information p {
     color: #C4C4C4;
+    font-size: 0.8vw;
+  }
+
+@media only screen and (max-width: 1000px) {
+  .Experience h2 {
+    color: #FFFFFF;
+    font-size: 4.9vw;
+  }
+
+  .Experience-Content {
+    width: 80vw;
+    display: flex;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+  }
+  
+  .Experience-Content-Tabs {
+    margin-right: 2vw;
+  }
+
+  .Experience-Content-Tabs-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 2vw;
+    font-weight: bold;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+  }
+
+  .Experience-Content-Tabs-active {
+    background-color: gray;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 2vw;
+    font-weight: bold;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+  }
+
+  .Experience-Content-Tabs button:hover {
+    background-color: gray;
+  }
+  
+  .Experience-Content-Information h2 {
+    color: #FFFFFF;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    font-size: 4vw;
+  }
+  
+  .Experience-Content-Information h4 {
+    color: #B6B6B6;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    font-size: 2.5vw;
+  }
+
+  .Experience-Content-Information p {
+    font-size: 1vw;
+  }
+}
+
+  @media only screen and (max-width: 600px) {
+    .Experience h2 {
+      color: #FFFFFF;
+      font-size: 4.9vw;
+    }
+
+    .Experience-Content {
+      width: 80vw;
+      display: flex;
+      margin-top: 2vw;
+      margin-bottom: 2vw;
+    }
+    
+    .Experience-Content-Tabs {
+      margin-right: 2vw;
+    }
+
+    .Experience-Content-Tabs-button {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      color: #FFFFFF;
+      font-size: 2vw;
+      font-weight: bold;
+      padding-top: 1vw;
+      padding-bottom: 1vw;
+    }
+  
+    .Experience-Content-Tabs-active {
+      background-color: gray;
+      border: none;
+      cursor: pointer;
+      color: #FFFFFF;
+      font-size: 2vw;
+      font-weight: bold;
+      padding-top: 1vw;
+      padding-bottom: 1vw;
+    }
+  
+    .Experience-Content-Tabs button:hover {
+      background-color: gray;
+    }
+    
+    .Experience-Content-Information h2 {
+      color: #FFFFFF;
+      margin-top: 2vw;
+      margin-bottom: 2vw;
+      font-size: 4vw;
+    }
+    
+    .Experience-Content-Information h4 {
+      color: #B6B6B6;
+      margin-top: 1vw;
+      margin-bottom: 1vw;
+      font-size: 2.5vw;
+    }
+
+    .Experience-Content-Information p {
+      font-size: 1vw;
+    }
   }

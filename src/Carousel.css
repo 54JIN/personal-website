@@ -1,0 +1,70 @@
+.carousel-container {
+    width: 90%;
+    max-width: 500px;
+    height: 50%;
+    background-color: #181818;
+    display: flex;
+    position: relative;
+  }
+  
+  .carousel {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+  }
+  
+  .carousel-item {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+  }
+  
+  .carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  } 
+
+  .carousel-btn {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    transform: rotate(45deg);
+    z-index: 2;
+    top: 50%;
+    cursor: pointer;
+  }
+  
+  .left-btn {
+    border-bottom: 4px solid rgb(78, 78, 78);
+    border-left: 4px solid rgb(78, 78, 78);
+    left: 20px;
+  }
+  
+  .right-btn {
+    border-right: 4px solid rgb(78, 78, 78);
+    border-top: 4px solid rgb(78, 78, 78);
+    right: 20px;
+  }
+  
+  ::-webkit-scrollbar {
+    height: 0px;
+    width: 0px;
+  }
+
+  @media only screen and (min-width: 1201px) {
+    .carousel-container {
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .carousel-btn {
+      display: none;
+    }
+  }

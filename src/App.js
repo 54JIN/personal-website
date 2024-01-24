@@ -1,6 +1,7 @@
 import './App.css';
 import Projects from './Projects';
 import Noteworthy from './Noteworthy';
+import Carousel from "./Carousel";
 import AboutMe from './AboutMe';
 import Experience from './Experience';
 import logo from './logo.png';
@@ -17,6 +18,21 @@ function App() {
   const experience = useRef(null);
   const aboutMe = useRef(null);
   const contact = useRef(null);
+
+  const NoteworthyProjects = [
+    {
+      image: todo,
+      title: "1"
+    },
+    {
+      image: todo,
+      title: "2"
+    },
+    {
+      image: todo,
+      title: "3"
+    },
+  ]
 
   //React Scroll Function
   const scrollToSection = (elementRef) => {
@@ -64,6 +80,7 @@ function App() {
       </div>
       <div className="Other_Projects">
         <h2>Other Noteworthy Projects</h2>
+        <Carousel images={NoteworthyProjects}/>
         <div className="Other_Projects-Noteworthy">
           <Noteworthy image={todo}/>
           <Noteworthy image={todo}/>

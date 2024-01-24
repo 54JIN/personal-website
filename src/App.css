@@ -193,8 +193,6 @@ body {
 .Other_Projects-Noteworthy {
   display: grid;
   grid-template-columns: 30% 30% 30% ;
-  /* grid-template-rows: 10% 10% 10%; */
-  /* grid-area: 1/2/3/5 */
 }
 
 .Contact {
@@ -274,24 +272,16 @@ body {
 }
 
 @media only screen and (max-width: 1200px) {
-
   .Other_Projects-Noteworthy {
-    display: grid;
-    grid-template-columns: 50% 25%;
+    display: none;
+  }
+  .Other_Projects h2 {
+    color: #FFFFFF;
+    font-size: 4vw;
   }
 }
 
 @media only screen and (max-width: 1000px) {
-  .Other_Projects h2 {
-    color: #FFFFFF;
-    font-size: 4.9vw;
-  }
-  
-  .Other_Projects-Noteworthy {
-    display: flex;
-    flex-direction: column;
-  }
-
   .Contact {
     display: flex;
     flex-direction: column;
@@ -367,17 +357,10 @@ body {
     color: #FFFFFF;
     font-size: 4.9vw;
   }
-  
+
   .Other_Projects h2 {
     color: #FFFFFF;
-    font-size: 4.9vw;
-  }
-  
-  .Other_Projects-Noteworthy {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 80vw;
+    font-size: 5vw;
   }
 
   .Contact {

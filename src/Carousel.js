@@ -30,17 +30,28 @@ const Carousel = ({ images }) => {
     }
 
     return (
-        <div className="carousel-container">
-          <div className="carousel-btn left-btn" onClick={() => incrementCarousel(-1)}/>
-          <div className="carousel-btn right-btn" onClick={() => incrementCarousel(1)}/>
+      <div className="carousel-frame">
+        <div className="carousel-frame-content">
           <div className="carousel" ref={carousel}>
-            {images.map((img, idx) => (
-              <div className="carousel-item" key={`${idx}-${img.title}`}>
-                <Noteworthy image={img.image} />
-              </div>
-            ))}
+              {images.map((img, idx) => (
+                <div className="carousel-item" key={`${idx}-${img.title}`}>
+                  <Noteworthy image={img.image} />
+                </div>
+              ))}
+          </div>
+          <div className="carousel-container">
+            <div className="carousel-container-2">
+              <div className="carousel-overlay"></div>
+              <div className="carousel-btn left-btn" onClick={() => incrementCarousel(-1)}/>
+              <div className="carousel-btn right-btn" onClick={() => incrementCarousel(1)}/>
+            </div>
+            <div className="carousel-container-content">
+                <h1>Pallets</h1>
+                <p>Frontend developer tool to create color themes</p>
+            </div>
           </div>
         </div>
+      </div>
     )
 }
 

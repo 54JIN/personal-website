@@ -1,0 +1,28 @@
+.Footer {
+    width: 100vw;
+    height: 80vw;
+    background-color: #482FD3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Footer h1{
+    color: #CCF382;
+    text-align: center;
+    font-size: 3.8vw;
+}
+
+.Footer-Images {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Footer-Images img{
+    margin-left: 0px;
+    height: 8vw;
+}
+
+.emailClick {
+    cursor: pointer;
+}

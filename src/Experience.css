@@ -1,194 +1,74 @@
 .Experience {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .Experience h2 {
-    color: #FFFFFF;
-    font-size: 37px;
-  }
-  
-  .Experience-Content {
-    width: 50vw;
-    display: flex;
-    margin-top: 80px;
-    margin-bottom: 150px;
-  }
-  
-  .Experience-Content-Tabs {
-    margin-right: 60px;
-  }
-  
-  .Experience-Content-Tabs ul {
-    list-style: none;
-  }
-  
-  .Experience-Content-Tabs-button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    color: #FFFFFF;
-    font-size: 20px;
-    font-weight: bold;
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
-
-  .Experience-Content-Tabs-active {
-    background-color: gray;
-    border: none;
-    cursor: pointer;
-    color: #FFFFFF;
-    font-size: 20px;
-    font-weight: bold;
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
-
-  .Experience-Content-Tabs button:hover {
-    background-color: gray;
-  }
-  
-  .Experience-Content-Information h2 {
-    color: #FFFFFF;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 2vw;
-  }
-  
-  .Experience-Content-Information h4 {
-    color: #B6B6B6;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 1.5vw;
-  }
-  
-  .Experience-Content-Information p {
-    color: #C4C4C4;
-    font-size: 0.8vw;
-  }
-
-@media only screen and (max-width: 1000px) {
-  .Experience h2 {
-    color: #FFFFFF;
-    font-size: 4.9vw;
-  }
-
-  .Experience-Content {
-    width: 80vw;
-    display: flex;
-    margin-top: 2vw;
-    margin-bottom: 2vw;
-  }
-  
-  .Experience-Content-Tabs {
-    margin-right: 2vw;
-  }
-
-  .Experience-Content-Tabs-button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    color: #FFFFFF;
-    font-size: 2vw;
-    font-weight: bold;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
-  }
-
-  .Experience-Content-Tabs-active {
-    background-color: gray;
-    border: none;
-    cursor: pointer;
-    color: #FFFFFF;
-    font-size: 2vw;
-    font-weight: bold;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
-  }
-
-  .Experience-Content-Tabs button:hover {
-    background-color: gray;
-  }
-  
-  .Experience-Content-Information h2 {
-    color: #FFFFFF;
-    margin-top: 2vw;
-    margin-bottom: 2vw;
-    font-size: 4vw;
-  }
-  
-  .Experience-Content-Information h4 {
-    color: #B6B6B6;
-    margin-top: 1vw;
-    margin-bottom: 1vw;
-    font-size: 2.5vw;
-  }
-
-  .Experience-Content-Information p {
-    font-size: 1vw;
-  }
+  width: 100vw;
+  height: 60vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-  @media only screen and (max-width: 600px) {
-    .Experience h2 {
-      color: #FFFFFF;
-      font-size: 4.9vw;
-    }
+.Experience-Content {
+  background-color: #FFFFFF;
+  width: 90vw;
+  height: 45vw;
+  display: flex;
+}
 
-    .Experience-Content {
-      width: 80vw;
-      display: flex;
-      margin-top: 2vw;
-      margin-bottom: 2vw;
-    }
-    
-    .Experience-Content-Tabs {
-      margin-right: 2vw;
-    }
+.Experience-Content-Tabs {
+  width: 33vw;
+  display: flex;
+  flex-direction: column;
+}
 
-    .Experience-Content-Tabs-button {
-      background-color: transparent;
-      border: none;
-      cursor: pointer;
-      color: #FFFFFF;
-      font-size: 2vw;
-      font-weight: bold;
-      padding-top: 1vw;
-      padding-bottom: 1vw;
-    }
-  
-    .Experience-Content-Tabs-active {
-      background-color: gray;
-      border: none;
-      cursor: pointer;
-      color: #FFFFFF;
-      font-size: 2vw;
-      font-weight: bold;
-      padding-top: 1vw;
-      padding-bottom: 1vw;
-    }
-  
-    .Experience-Content-Tabs button:hover {
-      background-color: gray;
-    }
-    
-    .Experience-Content-Information h2 {
-      color: #FFFFFF;
-      margin-top: 2vw;
-      margin-bottom: 2vw;
-      font-size: 4vw;
-    }
-    
-    .Experience-Content-Information h4 {
-      color: #B6B6B6;
-      margin-top: 1vw;
-      margin-bottom: 1vw;
-      font-size: 2.5vw;
-    }
+.Experience-Content-Tabs h1{
+  background-color: #482FD3;
+  color: #FFFFFF;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  text-align: center;
+  font-size: 2.0vw;
+  width: 100%;
+}
 
-    .Experience-Content-Information p {
-      font-size: 1vw;
-    }
-  }
+.Experience-Content-Tabs li {
+  color: #4831D4;
+}
+
+.Experience-Content-Tabs button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #4831D4;
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+.Experience-Content-Seperator {
+  background-color: #482FD3;
+  width: 2px;
+}
+
+.Experience-Content-Information {
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+}
+
+.Experience-Content-Information h1 {
+  color: #4831D4;
+  align-self: center;
+}
+
+.Experience-Content-Detail {
+  margin-left: 4vw;
+  /* width: 40vw; */
+}
+
+.Experience-Content-Detail h2 {
+  color: #4831D4;
+}
+
+.Experience-Content-Detail li {
+  font-size: 1.5vw;
+}

@@ -1,132 +1,26 @@
 .AboutMe {
+    background-color: #482FD3;
+    width: 100vw;
+    height: 60vw;
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-
-.AboutMe h2{
-    color: #FFFFFF;
-    font-size: 3.5vw;
+    justify-content: center;
 }
 
 .AboutMe-Content {
-    display: flex;
-    margin-left: 9vw;
-    margin-right: 9vw;
-    margin-top: 2vw;
+    width: 45vw;
+    margin-left: 15vw;
 }
 
-.AboutMe-Content img {
-    width: 24vw;
-    clip-path: circle();
-    padding-top: 3%;
+.AboutMe-Content h1 {
+    color: #CCF382;
+    font-size: 5.8vw;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
-.AboutMe-Content-Information {
-    margin-left: 4vw;
-}
-
-.AboutMe-Content-Information h2 {
+.AboutMe-Content p {
     color: #FFFFFF;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 4vw;
-}
-
-.AboutMe-Content-Information h4 {
-    color: #B6B6B6;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 2vw;
-}
-  
-.AboutMe-Content-Information p {
-    color: #C4C4C4;
-    font-size: 1vw;
-}
-
-@media only screen and (max-width: 1000px) {
-    .AboutMe h2{
-        color: #FFFFFF;
-        font-size: 4.9vw;
-    }
-
-    .AboutMe-Content {
-        display: flex;
-        margin-left: 9vw;
-        margin-right: 9vw;
-        margin-top: 2vw;
-    }
-    
-    .AboutMe-Content img {
-        width: 24vw;
-        clip-path: circle();
-        padding-top: 3%;
-    }
-    
-    .AboutMe-Content-Information {
-        margin-left: 4vw;
-    }
-    
-    .AboutMe-Content-Information h2 {
-        color: #FFFFFF;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-size: 4vw;
-    }
-    
-    .AboutMe-Content-Information h4 {
-        color: #B6B6B6;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-size: 2vw;
-    }
-      
-    .AboutMe-Content-Information p {
-        color: #C4C4C4;
-        font-size: 1vw;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .AboutMe h2{
-        color: #FFFFFF;
-        font-size: 4.9vw;
-    }
-
-    .AboutMe-Content {
-        display: flex;
-        margin-left: 9vw;
-        margin-right: 9vw;
-        margin-top: 2vw;
-    }
-    
-    .AboutMe-Content img {
-        width: 24vw;
-        clip-path: circle();
-        padding-top: 3%;
-    }
-    
-    .AboutMe-Content-Information {
-        margin-left: 4vw;
-    }
-    
-    .AboutMe-Content-Information h2 {
-        color: #FFFFFF;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-size: 4vw;
-    }
-    
-    .AboutMe-Content-Information h4 {
-        color: #B6B6B6;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-size: 1.8vw;
-    }
-      
-    .AboutMe-Content-Information p {
-        color: #C4C4C4;
-        font-size: 1vw;
-    }
+    font-size: 1.6vw;
+    margin-bottom: 0px;
 }

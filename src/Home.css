@@ -1,0 +1,271 @@
+.Home2 {
+    display: none;
+}
+
+.Home1 {
+    display: flex;
+}
+
+.Home-Back{
+    display: flex;
+}
+
+.Home-Background {
+    display: flex;
+}
+
+.Home-Background-Items {
+    position: absolute;
+    width: 67vw;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+}
+
+.BG1{
+    display: flex;
+    height: 8vw;
+    margin-top: 6vw;
+    margin-left: 54vw;
+}
+
+.Home-Background-Items-stair-mid {
+    display: flex;
+}
+
+.BG2{
+    display: flex;
+    height: 5vw;
+    margin-top: 4vw;
+    margin-left: 58vw;
+}
+
+.BG3{
+    display: flex;
+    height: 4vw;
+    margin-top: 1vw;
+    margin-left: 20vw;
+}
+
+.Home-Background-Items-square-mid {
+    display: flex;
+}
+
+.BG4{
+    display: flex;
+    height: 4vw;
+    margin-top: 4vw;
+    margin-left: 50vw;
+}
+
+.BG5{
+    display: flex;
+    height: 8vw;
+    margin-top: 3vw;
+    margin-left: 18vw;
+}
+
+.Home-Background-left {
+    width: 67vw;
+    height: 50vw;
+    background-color: #482FD3;
+}
+
+.Home-Background-right {
+    width: 33vw;
+    height: 50vw;
+    background-color: #CCF382;
+}
+
+.Home-Content {
+    position: absolute;
+    display: flex;
+    height: 40vw;
+    margin-left: 13vw;
+    margin-right: 20vw;
+}
+
+.Home-Content-left {
+    width: 33vw;
+    margin-top: 13vw;
+}
+
+.Home-Content-left-title2 {
+    display: flex; 
+}
+
+.Home-Content h1 {
+    color: #CCF382;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 3.8vw;
+}
+
+.Home-Content h2 {
+    color: #FFFFFF;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 3.8vw;
+}
+
+.Home-Content p {
+    color: #FFFFFF;
+    margin-top: 2vh;
+    margin-bottom: 0px;
+    font-size: 1.2vw;
+}
+
+.Home-Content-left-bt-description {
+    padding-top: 7vw;
+}
+
+.Home-Content-left-bt-description p {
+    color: #CCF382;
+    font-size: 0.9vw;
+}
+
+.Home-Content-right {
+    margin-left: 14vw;
+    align-self: center;
+}
+
+.Home-Content-right img {
+    width: 17vw;
+}
+
+@media only screen and (max-width: 700px) {
+
+}
+
+
+@media only screen and (max-width: 580px) {
+    .Home1 {
+        display: none;
+    }
+
+    .Home2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Home-Content-bottom {
+        display:flex;
+    }
+
+    .Home-Content-bottom-information {
+        position: absolute;
+        display: flex;
+        height: 50vw;
+        margin-left: 11vw;
+        margin-right: 20vw;
+        align-self: center;
+    }
+
+    .Home-Content-top {
+        display:flex;
+    }
+    
+    .Home-Background-top {
+        width: 100vw;
+        height: 100vw;
+        background-color: #482FD3;
+    }
+
+    .Home-Content-top-information {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        height: 50vw;
+        margin-left: 15vw;
+        margin-right: 20vw;
+        margin-top: 16vw;
+    }
+
+    .Home-Content-top-information-title2 {
+        display: flex;
+    }
+    
+    .Home-Content-top-information h1 {
+        color: #CCF382;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 10vw;
+    }
+    
+    .Home-Content-top-information h2 {
+        color: #FFFFFF;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 10vw;
+    }
+    
+    .Home-Content-top-information p {
+        color: #FFFFFF;
+        margin-top: 2vh;
+        margin-bottom: 0px;
+        font-size: 3vw;
+    }
+    
+    .Home-Content-information-bt-description {
+        padding-top: 7vw;
+    }
+    
+    .Home-Content-information-bt-description p {
+        color: #CCF382;
+        font-size: 2.2vw;
+    }
+    
+    .Home-Back-2 {
+        display: flex;
+    }
+
+    .Home-Background-2 {
+        display: flex;
+    }
+
+    .Home-Background-Items-2 {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100vw;
+    }
+
+    .BG6 {
+        display: flex;
+        height: 20vw;
+        margin-top: 12vw;
+        margin-left: 20vw;
+    }
+
+    .BG7 {
+        display: flex;
+        height: 8vw;
+        /* margin-top: 0vw; */
+        margin-left: 76vw;
+    }
+
+    .BG8 {
+        display: flex;
+        height: 20vw;
+        margin-top: 6vw;
+        margin-left: 60vw;
+    }
+    
+    .Home-Background-bottom {
+        width: 100vw;
+        height: 90vw;
+        background-color: #CCF382;
+    }
+
+    .Home-Content-bottom-information {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+    }
+    
+    .Home-Content-bottom-information img {
+        width: 39vw;
+    }
+}

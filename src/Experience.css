@@ -1,74 +1,178 @@
-.Experience {
-  width: 100vw;
-  height: 60vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@media only screen and (min-width: 581px){
+  .Experience {
+    width: 100vw;
+    height: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Experience-Content {
+    background-color: #FFFFFF;
+    width: 90vw;
+    height: 45vw;
+    display: flex;
+  }
+
+  .Experience-Content-Tabs {
+    width: 33vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Experience-Content-Tabs h1{
+    background-color: #482FD3;
+    color: #FFFFFF;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    text-align: center;
+    font-size: 2.0vw;
+    width: 100%;
+  }
+
+  .Experience-Content-Tabs li {
+    color: #4831D4;
+  }
+
+  .Experience-Content-Tabs button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #4831D4;
+    font-size: 1.5vw;
+    font-weight: bold;
+  }
+
+  .Experience-Content-Seperator {
+    background-color: #482FD3;
+    width: 2px;
+  }
+
+  .Experience-Content-Information {
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+  }
+
+  .Experience-Content-Information h1 {
+    color: #4831D4;
+    align-self: center;
+  }
+
+  .Experience-Content-Detail {
+    margin-left: 4vw;
+  }
+
+  .Experience-Content-Detail h2 {
+    color: #4831D4;
+  }
+
+  .Experience-Content-Detail li {
+    font-size: 1.5vw;
+  }
 }
 
-.Experience-Content {
-  background-color: #FFFFFF;
-  width: 90vw;
-  height: 45vw;
-  display: flex;
-}
-
-.Experience-Content-Tabs {
-  width: 33vw;
-  display: flex;
-  flex-direction: column;
-}
-
-.Experience-Content-Tabs h1{
-  background-color: #482FD3;
-  color: #FFFFFF;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-top: 1vw;
-  padding-bottom: 1vw;
-  text-align: center;
-  font-size: 2.0vw;
-  width: 100%;
-}
-
-.Experience-Content-Tabs li {
-  color: #4831D4;
-}
-
-.Experience-Content-Tabs button {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  color: #4831D4;
-  font-size: 1.5vw;
-  font-weight: bold;
-}
-
-.Experience-Content-Seperator {
-  background-color: #482FD3;
-  width: 2px;
-}
-
-.Experience-Content-Information {
-  display: flex;
-  flex-direction: column;
-  overflow: scroll;
-}
-
-.Experience-Content-Information h1 {
-  color: #4831D4;
-  align-self: center;
-}
-
-.Experience-Content-Detail {
-  margin-left: 4vw;
-  /* width: 40vw; */
-}
-
-.Experience-Content-Detail h2 {
-  color: #4831D4;
-}
-
-.Experience-Content-Detail li {
-  font-size: 1.5vw;
+@media only screen and (max-width: 580px) {
+  .Experience {
+    width: 100vw;
+    margin-top: 15vw;
+    margin-bottom: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Experience-Content {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Experience-Content-Tabs {
+    width: 90vw;
+    height: 10vw;
+    display: flex;
+    background-color: #CCF382;
+  }
+  
+  .Experience-Content-Tabs h1{
+    background-color: #482FD3;
+    color: #FFFFFF;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 2.5vw;
+    padding-bottom: 1vw;
+    text-align: center;
+    font-size: 3.5vw;
+    width: 30%;
+  }
+  
+  .Experience-Content-Tabs ul {
+    list-style-type: none;  
+    display: flex;
+    margin: 0px;
+    padding-left: 0px;
+  }
+  
+  .Experience-Content-Tabs li {
+    color: #4831D4;
+    margin-left: 5vw;
+  }
+  
+  .Experience-Content-Tabs button {
+    display: flex;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #4831D4;
+    font-size: 3.5vw;
+    font-weight: bold;
+    padding-top: 2.6vw;
+    padding-bottom: 1vw;
+  }
+  
+  .Experience-Content-Seperator {
+    display: none;
+  }
+  
+  .Experience-Content-Information {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Experience-Content-Information h1 {
+    margin-top: 10vw;
+    margin-left: 15vw;
+    margin-bottom: 0px;
+    font-size: 5vw;
+    color: #4831D4;
+  }
+  
+  .Experience-Content-Detail {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15vw;
+  }
+  
+  .Experience-Content-Detail h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 3vw;
+    color: #4831D4;
+  }
+  
+  .Experience-Content-Detail ul {
+    list-style-type: none;  
+    width: 60vw;
+    margin-bottom: 15vw;
+    padding-left: 0px;
+  }
+  
+  .Experience-Content-Detail li {
+    margin-bottom: 2vw;
+    font-size: 2.5vw;
+  }
 }

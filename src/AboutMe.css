@@ -21,6 +21,36 @@
 
 .AboutMe-Content p {
     color: #FFFFFF;
-    font-size: 1.6vw;
+    font-size: 1.5vw;
     margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 580px) {
+    .AboutMe {
+        background-color: #482FD3;
+        width: 100vw;
+        height: 240vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .AboutMe-Content {
+        width: 69vw;
+        margin-left: 0px;
+    }
+    
+    .AboutMe-Content h1 {
+        color: #CCF382;
+        font-size: 12vw;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    
+    .AboutMe-Content p {
+        color: #FFFFFF;
+        font-size: 3.5vw;
+        margin-bottom: 0px;
+    }
 }

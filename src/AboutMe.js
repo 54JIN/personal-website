@@ -8,17 +8,19 @@ class AboutMe extends Component {
                 <div className="AboutMe-Content">
                     <h1>I am . . .</h1>
                     <p>
-                        A diligent full-stack developer, I possess substantial expertise in computer science, 
-                        enriched by mentorship with industry leaders from renowned companies like Google, Apple, and Amazon. 
-                        My internship at GAF was a cornerstone experience, where I leveraged Python and 
-                        Robotic Process Automation (RPA) to streamline the competitor data collection process, 
-                        saving the company over two months of manual effort. Beyond technical skills, I have demonstrated 
-                        strong leadership and mentorship qualities by guiding first-year students and amateur programmers at RUMAD, 
-                        developing their skills and fostering an environment of learning and growth. My projects, ranging from small 
-                        to large-scale API implementations, have honed my critical thinking and project management skills, enabling 
-                        me to efficiently navigate the journey from project ideation to deployment. This combination of technical 
-                        prowess, leadership, and a proven track record of successful project delivery makes me a well-rounded 
-                        candidate ready to make a significant impact.
+                        A diligent full-stack developer, I have garnered significant expertise in computer science, augmented by mentorship with industry leaders from esteemed companies like Google, Apple, and Amazon. 
+                    </p>
+                    <p>
+                        During my internship at GAF, I utilized Python and Robotic Process Automation (RPA) to optimize competitor data collection, resulting in a reduction of over two months of manual effort for the company.
+                    </p>
+                    <p>
+                        Beyond technical proficiency, I have showcased strong leadership and mentorship abilities by guiding first-year students and novice programmers at RUMAD, fostering an environment conducive to learning and growth. 
+                    </p>
+                    <p>
+                        Additionally, my involvement in projects spanning from small to large-scale API implementations has sharpened my critical thinking and project management skills, equipping me to efficiently navigate from project ideation to deployment.
+                    </p>
+                    <p>
+                        In summary, my blend of technical acumen, leadership capabilities, and a track record of successful project delivery positions me as a well-rounded candidate poised to make a substantial impact.
                     </p>
                 </div>
             </div>

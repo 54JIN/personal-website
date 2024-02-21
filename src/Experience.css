@@ -133,24 +133,30 @@
     width: 30%;
   }
   
-  .Experience-Content-Tabs ul {
-    list-style-type: none;  
+  .Experience-Content-Tabs-Button-Section {
     display: flex;
-    margin: 0px;
-    padding-left: 0px;
+    justify-content: space-around;
+    width: 70%;
   }
   
-  .Experience-Content-Tabs li {
-    color: #4831D4;
-    margin-left: 4.8vw;
-  }
-  
-  .Experience-Content-Tabs button {
+  .Experience-Content-Tabs-button {
     display: flex;
     background-color: transparent;
     border: none;
     cursor: pointer;
-    color: #4831D4;
+    color: #9285DE;
+    font-size: 3.0vw;
+    font-weight: bold;
+    padding-top: 2.8vw;
+    padding-bottom: 1vw;
+  }
+
+  .Experience-Content-Tabs-active {
+    display: flex;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #482FD3;
     font-size: 3.0vw;
     font-weight: bold;
     padding-top: 2.8vw;

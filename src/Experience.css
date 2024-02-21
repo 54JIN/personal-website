@@ -1,21 +1,19 @@
 @media only screen and (min-width: 581px){
   .Experience {
     width: 100vw;
-    height: 60vw;
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin-top: 7vw;
+    margin-bottom: 7vw;
   }
 
   .Experience-Content {
     background-color: #FFFFFF;
     width: 90vw;
-    height: 45vw;
     display: flex;
   }
 
   .Experience-Content-Tabs {
-    width: 33vw;
     display: flex;
     flex-direction: column;
   }
@@ -29,20 +27,41 @@
     padding-bottom: 1vw;
     text-align: center;
     font-size: 2.0vw;
+    width: 15vw;
+  }
+
+  .Experience-Content-Tabs-Button-Section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .Experience-Content-Tabs-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #9285DE;
+    font-size: 1.5vw;
+    font-weight: bold;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    padding-left: 2vw;
+    text-align: left;
     width: 100%;
   }
 
-  .Experience-Content-Tabs li {
-    color: #4831D4;
-  }
-
-  .Experience-Content-Tabs button {
-    background-color: transparent;
+  .Experience-Content-Tabs-active {
+    background-color: #F2F2F2;
     border: none;
     cursor: pointer;
     color: #4831D4;
     font-size: 1.5vw;
     font-weight: bold;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    padding-left: 2vw;
+    text-align: left;
+    width: 100%;
   }
 
   .Experience-Content-Seperator {
@@ -53,7 +72,6 @@
   .Experience-Content-Information {
     display: flex;
     flex-direction: column;
-    overflow: scroll;
   }
 
   .Experience-Content-Information h1 {
@@ -63,14 +81,20 @@
 
   .Experience-Content-Detail {
     margin-left: 4vw;
+    margin-bottom: 4vw;
   }
 
   .Experience-Content-Detail h2 {
     color: #4831D4;
   }
 
+  .Experience-Content-Detail ul {
+    padding-right: 8vw;
+  }
+
   .Experience-Content-Detail li {
     font-size: 1.5vw;
+    margin-top: 1vw;
   }
 }
 

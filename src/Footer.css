@@ -1,6 +1,6 @@
 .Footer {
     width: 100vw;
-    height: 80vw;
+    height: 50vw;
     background-color: #482FD3;
     display: flex;
     flex-direction: column;
@@ -30,7 +30,7 @@
 @media only screen and (max-width: 580px) {
     .Footer {
         width: 100vw;
-        height: 70vw;
+        height: 80vw;
         background-color: #482FD3;
         display: flex;
         flex-direction: column;

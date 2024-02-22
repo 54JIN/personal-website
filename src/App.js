@@ -25,15 +25,21 @@ function App() {
   const NoteworthyProjects = [
     {
       image: pallets,
-      title: "1"
+      title: "Pallets",
+      description: "Frontend developer tool to create color themes",
+      link: "https://54jin.github.io/color-project/"
     },
     {
       image: pallets,
-      title: "2"
+      title: "Pallets",
+      description: "Frontend developer tool to create color themes",
+      link: "https://54jin.github.io/color-project/"
     },
     {
       image: pallets,
-      title: "3"
+      title: "Pallets",
+      description: "Frontend developer tool to create color themes",
+      link: "https://54jin.github.io/color-project/"
     },
   ]
 

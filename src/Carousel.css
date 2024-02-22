@@ -16,103 +16,59 @@
   border-radius: 8px;
 }
 
-.carousel-overlay {
-  width: 80vw;
-  height: 40vw;
-  background-color: rgba(72, 47, 211, 0.8);
-}
-
 .carousel-container {
     width: 80vw;
-    /* max-width: 700px; */
-    /* height: 40vw; */
-    /* background-color: #482FD3; */
-    display: flex;
-    position: absolute;
-    margin-bottom: 15vw;
-  }
-
-.carousel-container-content {
-  /* width: 40vw; */
-  height: 40vw;
-  display: flex;
-  position: absolute;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  margin-left: 15vw;
-}
-
-.carousel-container-content h1{
-  color: #CCF382;
-  font-size: 4.8vw;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-.carousel-container-content p{
-  color: #FFFFFF;
-  font-size: 1.2vw;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-  
-  .carousel {
-    display: flex;
-    height: 100%;
-    width: 100%;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-  }
-  
-  .carousel-item {
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    flex: 1 0 100%;
-    scroll-snap-align: start;
-  }
-  
-  .carousel-item img {
     height: 40vw;
-    width: 100%;
-    /* object-fit: cover; */
-  } 
-
-  .carousel-btn {
-    height: 30px;
-    width: 30px;
+    display: flex;
     position: absolute;
-    transform: rotate(45deg);
-    z-index: 2;
-    top: 50%;
-    cursor: pointer;
-  }
+    /* margin-bottom: 15vw; */
+    align-items: center;
+}
   
-  .left-btn {
-    border-bottom: 2px solid #FFFFFF;
-    border-left: 2px solid #FFFFFF;
-    left: 40px;
-  }
+.carousel {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
   
-  .right-btn {
-    border-right: 2px solid #FFFFFF;
-    border-top: 2px solid #FFFFFF;
-    right: 40px;
-  }
-  
-  ::-webkit-scrollbar {
-    height: 0px;
-    width: 0px;
-  }
+.carousel-item {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  flex: 1 0 100%;
+  scroll-snap-align: start;
+}
 
-  /* @media only screen and (min-width: 1201px) {
-    .carousel-container {
-        display: none;
-    }
-  } */
+.carousel-btn {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  transform: rotate(45deg);
+  z-index: 2;
+  top: 50%;
+  cursor: pointer;
+}
+  
+.left-btn {
+  border-bottom: 2px solid #FFFFFF;
+  border-left: 2px solid #FFFFFF;
+  left: 40px;
+}
+  
+.right-btn {
+  border-right: 2px solid #FFFFFF;
+  border-top: 2px solid #FFFFFF;
+  right: 40px;
+}
+  
+::-webkit-scrollbar {
+  height: 0px;
+  width: 0px;
+}
 
   @media only screen and (max-width: 1000px) {
     .carousel-btn {

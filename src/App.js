@@ -2,7 +2,7 @@ import './App.css';
 import Home from './Home';
 import Projects from './Projects';
 import Noteworthy from './Noteworthy';
-import Carousel from "./Carousel";
+import Carousel2 from "./Carousel2";
 import AboutMe from './AboutMe';
 import Experience from './Experience';
 import Footer from './Footer';
@@ -59,7 +59,8 @@ function App() {
   return (
     <div className="App">
       <Home />
-      <Carousel images={NoteworthyProjects}/>
+      {/* <Carousel images={NoteworthyProjects}/> */}
+      <Carousel2 images={NoteworthyProjects}/>
       <AboutMe />
       <Experience />
       <Footer />

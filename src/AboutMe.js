@@ -1,6 +1,16 @@
 import React, {Component} from 'react';
 import './AboutMe.css';
 
+import DevIcon from './DevIcon.svg';
+import UpArrow from './UpArrow.svg';
+import DownArrow from './DownArrow.svg';
+import BrowserIcon from './BrowserIcon.svg';
+import stairsG from './stairsG.svg';
+import UnfilledCircles from './UnfilledCircles.svg';
+import SquareCircles from './SquareCircles.svg';
+import ServerIcon from './ServerIcon.svg';
+import stairsGO from './stairsGO.svg';
+
 class AboutMe extends Component {
     render() {
         return(
@@ -22,6 +32,27 @@ class AboutMe extends Component {
                     <p>
                         In summary, my blend of technical acumen, leadership capabilities, and a track record of successful project delivery positions me as a well-rounded candidate poised to make a substantial impact.
                     </p>
+                </div>
+                <div className="AboutMe-Icon">
+                    <div className="AboutMe-Icon-Background">
+                        <div className="AboutMe-Icon-Left">
+                            <img src={BrowserIcon} className="AboutMe-Browser-Icon" alt="DevIcon" />   
+                            <img src={UpArrow} className="AboutMe-UpArrow-Icon" alt="DevIcon" />   
+                            <img src={stairsG} className="AboutMe-stairsG-Icon" alt="DevIcon" />   
+                            <img src={UnfilledCircles} className="AboutMe-UnfilledCircles1-Icon" alt="DevIcon" />   
+                            <img src={SquareCircles} className="AboutMe-SquareCircles1-Icon" alt="DevIcon" />   
+                        </div>
+                        <div className="AboutMe-Icon-Right">
+                            <img src={SquareCircles} className="AboutMe-SquareCircles2-Icon" alt="DevIcon" />   
+                            <img src={UnfilledCircles} className="AboutMe-UnfilledCircles2-Icon" alt="DevIcon" />   
+                            <img src={stairsGO} className="AboutMe-stairsGO-Icon" alt="DevIcon" />   
+                            <img src={DownArrow} className="AboutMe-DownArrow-Icon" alt="DevIcon" />   
+                            <img src={ServerIcon} className="AboutMe-ServerIcon-Icon" alt="DevIcon" />   
+                        </div>
+                    </div>
+                    <div className="AboutMe-Icon-Mid">
+                        <img src={DevIcon} className="AboutMe-Main-Icon" alt="DevIcon" />   
+                    </div>
                 </div>
             </div>
         );

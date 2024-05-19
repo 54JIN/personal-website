@@ -9,6 +9,7 @@ import Footer from './Footer';
 
 import logo from './logo.png';
 import pallets from './pallets.png';
+import afrImg from './afrImg.png';
 import todo from './todo.png';
 import profile from './profile.jpg';
 
@@ -30,16 +31,16 @@ function App() {
       link: "https://54jin.github.io/color-project/"
     },
     {
-      image: pallets,
-      title: "Pallets",
-      description: "Frontend developer tool to create color themes",
-      link: "https://54jin.github.io/color-project/"
+      image: afrImg,
+      title: "AFR",
+      description: "Anonymous Food Review Blog dedicated to Rutgers Resteraunts",
+      link: "https://54jin.github.io/afr/"
     },
     {
-      image: pallets,
-      title: "Pallets",
-      description: "Frontend developer tool to create color themes",
-      link: "https://54jin.github.io/color-project/"
+      image: todo,
+      title: "Task Manager API",
+      description: "Application dedicated to help users keep track of activities and tasks",
+      link: "https://github.com/54JIN/task-manager-api"
     },
   ]
 

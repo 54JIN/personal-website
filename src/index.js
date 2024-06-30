@@ -15,7 +15,7 @@ import TaskManager from './Pages/Projects/TaskManager/TaskManager';
 const router = createBrowserRouter([
   //Page Objects
   {
-    path: '/personal-website',
+    path: '/',
     element: <App />,
     errorElement: <div>404 Not Found</div>
   },

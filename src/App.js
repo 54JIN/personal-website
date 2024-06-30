@@ -28,19 +28,19 @@ function App() {
       image: pallets,
       title: "Pallets",
       description: "Frontend developer tool to create color themes",
-      link: "personal-website/projects/pallets"
+      link: "/projects/pallets"
     },
     {
       image: afrImg,
       title: "AFR",
       description: "Anonymous Food Review Blog dedicated to Rutgers Resteraunts",
-      link: "personal-website/projects/afr"
+      link: "/projects/afr"
     },
     {
       image: todo,
       title: "Task Manager API",
       description: "Application dedicated to help users keep track of activities and tasks",
-      link: "personal-website/projects/task-manager"
+      link: "/projects/task-manager"
     },
   ]
 

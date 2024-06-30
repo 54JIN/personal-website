@@ -20,17 +20,17 @@ const router = createBrowserRouter([
     errorElement: <div>404 Not Found</div>
   },
   {
-    path: '/personal-website/projects/pallets',
+    path: '/projects/pallets',
     element: <Pallets />,
     errorElement: <div>404 Not Found</div>
   },
   {
-    path: '/personal-website/projects/afr',
+    path: '/projects/afr',
     element: <Afr />,
     errorElement: <div>404 Not Found</div>
   },
   {
-    path: '/personal-website/projects/task-manager',
+    path: '/projects/task-manager',
     element: <TaskManager />,
     errorElement: <div>404 Not Found</div>
   },

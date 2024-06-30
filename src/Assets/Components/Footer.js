@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import './Footer.css';
 
-import GithubLogo from './GithubLogo.svg';
-import LinkedlnLogo from './LinkedlnLogo.svg';
-import EmailLogo from './EmailLogo.svg';
+import GithubLogo from '../Images/GithubLogo.svg';
+import LinkedlnLogo from '../Images/LinkedlnLogo.svg';
+import EmailLogo from '../Images/EmailLogo.svg';
 
 class Footer extends Component {
     render() {

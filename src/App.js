@@ -1,20 +1,15 @@
 import { Link } from 'react-router-dom';
 
 import './App.css';
-import Home from './Home';
-import Projects from './Projects';
-import Noteworthy from './Noteworthy';
-import Carousel2 from "./Carousel2";
-import AboutMe from './AboutMe';
-import Experience from './Experience';
-import Temp from './temp';
-import Footer from './Footer';
+import Home from './Pages/Home/Home';
+import Carousel2 from "./Pages/Home/Carousel2";
+import AboutMe from './Pages/Home/AboutMe';
+import Experience from './Pages/Home/Experience';
+import Footer from './Assets/Components/Footer';
 
-import logo from './logo.png';
-import pallets from './pallets.png';
-import afrImg from './afrImg.png';
-import todo from './todo.png';
-import profile from './profile.jpg';
+import pallets from './Assets/Images/pallets.png';
+import afrImg from './Assets/Images/afrImg.png';
+import todo from './Assets/Images/todo.png';
 
 //React Scroll ref
 import {useRef} from "react";
@@ -63,7 +58,7 @@ function App() {
   return (
     <div className="App">
       <Home />
-      <Link key={Temp} to={'/personal-website/temp'} ><button>Test</button></Link>
+      {/* <Link key={Temp} to={'/personal-website/temp'} ><button>Test</button></Link> */}
       {/* <Carousel images={NoteworthyProjects}/> */}
       <Carousel2 images={NoteworthyProjects}/>
       <AboutMe />

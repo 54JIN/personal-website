@@ -1,12 +1,11 @@
 import React, {Component} from 'react';
 import './Home.css';
-import profile from './profile.jpg';
-import stairsG from './stairsG.svg';
-import stairsP from './stairsP.svg';
-import stairsGSide from './stairsGSide.svg';
-import SquareCircles from './SquareCircles.svg';
-import SquareCirclesR from './SquareCirclesR.svg';
-import imageBorder from './imageBorder.svg';
+import profile from '../../Assets/Images/profile.jpg';
+import stairsG from '../../Assets/Images/stairsG.svg';
+import stairsP from '../../Assets/Images/stairsP.svg';
+import stairsGSide from '../../Assets/Images/stairsGSide.svg';
+import SquareCircles from '../../Assets/Images/SquareCircles.svg';
+import SquareCirclesR from '../../Assets/Images/SquareCirclesR.svg';
 
 class Projects extends Component {
     render() {

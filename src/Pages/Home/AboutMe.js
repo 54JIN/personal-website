@@ -1,15 +1,15 @@
 import React, {Component} from 'react';
 import './AboutMe.css';
 
-import DevIcon from './DevIcon.svg';
-import UpArrow from './UpArrow.svg';
-import DownArrow from './DownArrow.svg';
-import BrowserIcon from './BrowserIcon.svg';
-import stairsG from './stairsG.svg';
-import UnfilledCircles from './UnfilledCircles.svg';
-import SquareCircles from './SquareCircles.svg';
-import ServerIcon from './ServerIcon.svg';
-import stairsGO from './stairsGO.svg';
+import DevIcon from '../../Assets/Images/DevIcon.svg';
+import UpArrow from '../../Assets/Images/UpArrow.svg';
+import DownArrow from '../../Assets/Images/DownArrow.svg';
+import BrowserIcon from '../../Assets/Images/BrowserIcon.svg';
+import stairsG from '../../Assets/Images/stairsG.svg';
+import UnfilledCircles from '../../Assets/Images/UnfilledCircles.svg';
+import SquareCircles from '../../Assets/Images/SquareCircles.svg';
+import ServerIcon from '../../Assets/Images/ServerIcon.svg';
+import stairsGO from '../../Assets/Images/stairsGO.svg';
 
 class AboutMe extends Component {
     render() {

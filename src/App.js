@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import './App.css';
 import Home from './Home';
 import Projects from './Projects';
@@ -5,6 +7,7 @@ import Noteworthy from './Noteworthy';
 import Carousel2 from "./Carousel2";
 import AboutMe from './AboutMe';
 import Experience from './Experience';
+import Temp from './temp';
 import Footer from './Footer';
 
 import logo from './logo.png';
@@ -60,6 +63,7 @@ function App() {
   return (
     <div className="App">
       <Home />
+      <Link key={Temp} to={'/personal-website/temp'} ><button>Test</button></Link>
       {/* <Carousel images={NoteworthyProjects}/> */}
       <Carousel2 images={NoteworthyProjects}/>
       <AboutMe />

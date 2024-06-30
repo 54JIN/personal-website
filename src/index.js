@@ -1,13 +1,33 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+//NPM Dev dependencies
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
+//Imported Component Pages
+import App from './App';
+import Temp from './temp';
+
+const router = createBrowserRouter([
+  //Page Objects
+  {
+    path: '/personal-website',
+    element: <App />,
+    errorElement: <div>404 Not Found</div>
+  },
+  {
+    path: '/personal-website/temp',
+    element: <Temp />,
+    errorElement: <div>404 Not Found</div>
+  }
+]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router= {router} />
   </React.StrictMode>
 );
 

@@ -15,22 +15,22 @@ import TaskManager from './Pages/Projects/TaskManager/TaskManager';
 const router = createBrowserRouter([
   //Page Objects
   {
-    path: '/',
+    path: '/personal-website',
     element: <App />,
     errorElement: <div>404 Not Found</div>
   },
   {
-    path: '/projects/pallets',
+    path: '/personal-website/projects/pallets',
     element: <Pallets />,
     errorElement: <div>404 Not Found</div>
   },
   {
-    path: '/projects/afr',
+    path: '/personal-website/projects/afr',
     element: <Afr />,
     errorElement: <div>404 Not Found</div>
   },
   {
-    path: '/projects/task-manager',
+    path: '/personal-website/projects/task-manager',
     element: <TaskManager />,
     errorElement: <div>404 Not Found</div>
   },

@@ -1,4 +1,5 @@
 import { useRef, useState } from "react";
+import { Link } from 'react-router-dom';
 import "./Carousel2.css";
 
 const Carousel2 = ({ images }) => {
@@ -43,7 +44,7 @@ const Carousel2 = ({ images }) => {
                                 <div className="carousel-item-content">
                                     <h1>{img.title}</h1>
                                     <p>{img.description}</p>
-                                    <a href={img.link} rel="noreferrer"><button>Visit</button></a>
+                                    <Link key={img.key} to={img.link} ><button>Visit</button></Link>
                                 </div>
                             </div>
                         </div>

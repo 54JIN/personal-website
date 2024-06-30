@@ -7,6 +7,10 @@ import Carousel2 from "./Pages/Home/Carousel2";
 import AboutMe from './Pages/Home/AboutMe';
 import Experience from './Pages/Home/Experience';
 import Footer from './Assets/Components/Footer';
+
+import Pallets from './Pages/Projects/Pallets/Pallets';
+import Afr from './Pages/Projects/Afr/Afr';
+import TaskManager from './Pages/Projects/TaskManager/TaskManager';
 // import Footer from './Assets/Components/Footer';
 
 import pallets from './Assets/Images/pallets.png';
@@ -28,19 +32,22 @@ function App() {
       image: pallets,
       title: "Pallets",
       description: "Frontend developer tool to create color themes",
-      link: "/projects/pallets"
+      link: "/personal-website/projects/pallets",
+      key: Pallets,
     },
     {
       image: afrImg,
       title: "AFR",
       description: "Anonymous Food Review Blog dedicated to Rutgers Resteraunts",
-      link: "/projects/afr"
+      link: "/personal-website/projects/afr",
+      key: Afr,
     },
     {
       image: todo,
       title: "Task Manager API",
       description: "Application dedicated to help users keep track of activities and tasks",
-      link: "/projects/task-manager"
+      link: "/personal-website/projects/task-manager",
+      key: TaskManager,
     },
   ]
 

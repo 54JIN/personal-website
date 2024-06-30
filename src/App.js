@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom';
-
 import './App.css';
 
 import Home from './Pages/Home/Home';
@@ -11,7 +9,6 @@ import Footer from './Assets/Components/Footer';
 import Pallets from './Pages/Projects/Pallets/Pallets';
 import Afr from './Pages/Projects/Afr/Afr';
 import TaskManager from './Pages/Projects/TaskManager/TaskManager';
-// import Footer from './Assets/Components/Footer';
 
 import pallets from './Assets/Images/pallets.png';
 import afrImg from './Assets/Images/afrImg.png';

@@ -28,6 +28,10 @@ const Carousel2 = ({ images }) => {
         setCount(c => c + delta);
     };
 
+    const ScrollToTop = () => {
+        window.scrollTo(0, 0);
+    }
+
     return (
         <div className="carousel-frame">
             <div className="carousel-container">
@@ -44,7 +48,7 @@ const Carousel2 = ({ images }) => {
                                 <div className="carousel-item-content">
                                     <h1>{img.title}</h1>
                                     <p>{img.description}</p>
-                                    <Link key={img.key} to={img.link} ><button>Visit</button></Link>
+                                    <Link key={img.key} to={img.link} onClick={ScrollToTop} ><button>Visit</button></Link>
                                 </div>
                             </div>
                         </div>

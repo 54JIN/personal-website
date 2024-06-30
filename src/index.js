@@ -8,7 +8,9 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 //Imported Component Pages
 import App from './App';
-import Temp from './temp';
+import Pallets from './Pages/Projects/Pallets/Pallets';
+import Afr from './Pages/Projects/Afr/Afr';
+import TaskManager from './Pages/Projects/TaskManager/TaskManager';
 
 const router = createBrowserRouter([
   //Page Objects
@@ -18,10 +20,20 @@ const router = createBrowserRouter([
     errorElement: <div>404 Not Found</div>
   },
   {
-    path: '/personal-website/temp',
-    element: <Temp />,
+    path: '/personal-website/projects/pallets',
+    element: <Pallets />,
     errorElement: <div>404 Not Found</div>
-  }
+  },
+  {
+    path: '/personal-website/projects/afr',
+    element: <Afr />,
+    errorElement: <div>404 Not Found</div>
+  },
+  {
+    path: '/personal-website/projects/task-manager',
+    element: <TaskManager />,
+    errorElement: <div>404 Not Found</div>
+  },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

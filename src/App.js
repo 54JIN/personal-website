@@ -1,15 +1,17 @@
 import { Link } from 'react-router-dom';
 
 import './App.css';
+
 import Home from './Pages/Home/Home';
 import Carousel2 from "./Pages/Home/Carousel2";
 import AboutMe from './Pages/Home/AboutMe';
 import Experience from './Pages/Home/Experience';
 import Footer from './Assets/Components/Footer';
+// import Footer from './Assets/Components/Footer';
 
 import pallets from './Assets/Images/pallets.png';
 import afrImg from './Assets/Images/afrImg.png';
-import todo from './Assets/Images/todo.png';
+import todo from './Assets/Images/TaskManagerImg1.jpg';
 
 //React Scroll ref
 import {useRef} from "react";
@@ -26,19 +28,19 @@ function App() {
       image: pallets,
       title: "Pallets",
       description: "Frontend developer tool to create color themes",
-      link: "https://54jin.github.io/color-project/"
+      link: "personal-website/projects/pallets"
     },
     {
       image: afrImg,
       title: "AFR",
       description: "Anonymous Food Review Blog dedicated to Rutgers Resteraunts",
-      link: "https://54jin.github.io/afr/"
+      link: "personal-website/projects/afr"
     },
     {
       image: todo,
       title: "Task Manager API",
       description: "Application dedicated to help users keep track of activities and tasks",
-      link: "https://github.com/54JIN/task-manager-api"
+      link: "personal-website/projects/task-manager"
     },
   ]
 

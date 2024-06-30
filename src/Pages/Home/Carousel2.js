@@ -43,7 +43,7 @@ const Carousel2 = ({ images }) => {
                                 <div className="carousel-item-content">
                                     <h1>{img.title}</h1>
                                     <p>{img.description}</p>
-                                    <a href={img.link} target="_blank" rel="noreferrer"><button>Visit</button></a>
+                                    <a href={img.link} rel="noreferrer"><button>Visit</button></a>
                                 </div>
                             </div>
                         </div>

@@ -18,7 +18,7 @@ const Content = {
         'Designed the UI, implemented features such as validations, animations, responsive navigation, routes, and cookies.',
         'Deployed the application on Heroku, enhancing creativity, and efficiency for users, and received positive feedback for its ease of use and functionality.'
     ],
-    Link: 'https://github.com/54JIN/task-manager-api',
+    Link: 'https://jin-task-manager-e2e0e11982e2.herokuapp.com/',
     img2: TaskManagerImg2,
     img3: TaskManagerImg3,
 }

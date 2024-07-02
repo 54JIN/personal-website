@@ -23,7 +23,7 @@ function App() {
   const experience = useRef(null);
   const aboutMe = useRef(null);
   const contact = useRef(null);
-
+  
   const NoteworthyProjects = [
     {
       image: pallets,

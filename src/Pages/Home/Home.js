@@ -38,7 +38,7 @@ class Projects extends Component {
                             </div>
                             <p>I like to work in a collaborative team with clear communication to produce high quality user experience. </p>
                             <div className="Home-Content-left-bt-description">
-                                <p>Skilled in Node.js, React.js, and AWS.</p>
+                                <p>Certified in Node.js & React.js</p>
                             </div>
                         </div>
                         <div className="Home-Content-right">

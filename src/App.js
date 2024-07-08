@@ -12,7 +12,7 @@ import TaskManager from './Pages/Projects/TaskManager/TaskManager';
 
 import pallets from './Assets/Images/pallets.png';
 import afrImg from './Assets/Images/afrImg.png';
-import todo from './Assets/Images/TaskManagerImg1.jpg';
+import todo from './Assets/Images/TaskManagerImg1.png';
 
 //React Scroll ref
 import {useRef} from "react";
@@ -33,19 +33,19 @@ function App() {
       key: Pallets,
     },
     {
+      image: todo,
+      title: "Task Manager",
+      description: "Full-stack application dedicated to help users keep track of activities and tasks",
+      link: "/personal-website/projects/task-manager",
+      key: TaskManager,
+    },
+    {
       image: afrImg,
       title: "AFR",
       description: "Anonymous Food Review Blog dedicated to Rutgers Resteraunts",
       link: "/personal-website/projects/afr",
       key: Afr,
-    },
-    {
-      image: todo,
-      title: "Task Manager API",
-      description: "Application dedicated to help users keep track of activities and tasks",
-      link: "/personal-website/projects/task-manager",
-      key: TaskManager,
-    },
+    }
   ]
 
   //React Scroll Function

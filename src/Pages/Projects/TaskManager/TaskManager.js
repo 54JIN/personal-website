@@ -3,9 +3,9 @@ import './TaskManager.css';
 
 import Projects from '../../../Assets/Components/Projects';
 
-import TaskManagerImg1 from '../../../Assets/Images/TaskManagerImg1.jpg'
-import TaskManagerImg2 from '../../../Assets/Images/TaskManagerImg2.jpg'
-import TaskManagerImg3 from '../../../Assets/Images/TaskManagerImg3.jpg'
+import TaskManagerImg1 from '../../../Assets/Images/TaskManagerImg1.png'
+import TaskManagerImg2 from '../../../Assets/Images/TaskManagerImg2.png'
+import TaskManagerImg3 from '../../../Assets/Images/TaskManagerImg3.png'
 
 const Content = {
     Title: 'Task Manager',
@@ -14,9 +14,10 @@ const Content = {
     skills: 'JavaScript | React | Node.js | MongoDb | Axios | Jest',
     Intro_Title: 'Your Daily Helper . . .',
     Description: [
-        'A brainstorming tool to help design with theme and color scheme. Utilizing JavaScript, Node.js, React, Bootstrap, and Figma.',
-        'Designed the UI, implemented features such as validations, animations, responsive navigation, routes, and cookies.',
-        'Deployed the application on Heroku, enhancing creativity, and efficiency for users, and received positive feedback for its ease of use and functionality.'
+        'A full-stack application for daily task management.',
+        'Implemented user authentication, CRUD operations, and data analysis utilizing JavaScript, Node.js, React, MongoDb, Git, and Heroku.',
+        'Streamlined task management, increasing user productivity and organization.',
+        'Deployed the application on Heroku, enhancing efficiency for users, and received positive feedback for its ease of use and functionality.'
     ],
     Link: 'https://jin-task-manager-e2e0e11982e2.herokuapp.com/',
     img2: TaskManagerImg2,

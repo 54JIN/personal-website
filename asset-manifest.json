@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/personal-website/static/css/main.786273e5.css",
-    "main.js": "/personal-website/static/js/main.955763a0.js",
+    "main.js": "/personal-website/static/js/main.4e59155e.js",
     "static/js/787.0f15b36d.chunk.js": "/personal-website/static/js/787.0f15b36d.chunk.js",
     "static/media/profile.jpg": "/personal-website/static/media/profile.e546caf96a1fa23efbf0.jpg",
     "static/media/afrImg.png": "/personal-website/static/media/afrImg.8c6b497edb6fbd24525b.png",
     "static/media/afrImg2.png": "/personal-website/static/media/afrImg2.de29cac42d34c26c409a.png",
     "static/media/afrImg3.png": "/personal-website/static/media/afrImg3.35cac0f96a3d4036ebb7.png",
-    "static/media/TaskManagerImg3.jpg": "/personal-website/static/media/TaskManagerImg3.b597685959bde2718fe4.jpg",
-    "static/media/TaskManagerImg1.jpg": "/personal-website/static/media/TaskManagerImg1.8c4d10e57f58f0bd273a.jpg",
-    "static/media/TaskManagerImg2.jpg": "/personal-website/static/media/TaskManagerImg2.a39b74092ede602ff391.jpg",
+    "static/media/TaskManagerImg1.png": "/personal-website/static/media/TaskManagerImg1.fd3bf5d6bca95bb37d86.png",
     "static/media/palletsImg3.png": "/personal-website/static/media/palletsImg3.e0eac5a7d689aae0ec68.png",
     "static/media/palletsImg2.png": "/personal-website/static/media/palletsImg2.8254f26bbf5e9b27fee4.png",
     "static/media/pallets.png": "/personal-website/static/media/pallets.9e0c70685db63a4923a7.png",
+    "static/media/TaskManagerImg3.png": "/personal-website/static/media/TaskManagerImg3.ed9433dacb48bd3c9373.png",
+    "static/media/TaskManagerImg2.png": "/personal-website/static/media/TaskManagerImg2.4a4b5fb58b48f005d4d0.png",
     "static/media/SquareCircles.svg": "/personal-website/static/media/SquareCircles.642ba2fdca9a8ad79ad555ff76e663df.svg",
     "static/media/SquareCirclesR.svg": "/personal-website/static/media/SquareCirclesR.5603730f39188404c1173bfd2cd39848.svg",
     "static/media/ServerIcon.svg": "/personal-website/static/media/ServerIcon.95fc52f3000230fc8ea0d3c235ddcbce.svg",
@@ -30,11 +30,11 @@
     "static/media/DownArrow.svg": "/personal-website/static/media/DownArrow.f9315665a809e1a053922b9d5847eb9e.svg",
     "static/media/UpArrow.svg": "/personal-website/static/media/UpArrow.d829452183bc42f68546a7a911a71839.svg",
     "main.786273e5.css.map": "/personal-website/static/css/main.786273e5.css.map",
-    "main.955763a0.js.map": "/personal-website/static/js/main.955763a0.js.map",
+    "main.4e59155e.js.map": "/personal-website/static/js/main.4e59155e.js.map",
     "787.0f15b36d.chunk.js.map": "/personal-website/static/js/787.0f15b36d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.786273e5.css",
-    "static/js/main.955763a0.js"
+    "static/js/main.4e59155e.js"
   ]
 }

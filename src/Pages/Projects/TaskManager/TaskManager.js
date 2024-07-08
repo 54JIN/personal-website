@@ -3,9 +3,9 @@ import './TaskManager.css';
 
 import Projects from '../../../Assets/Components/Projects';
 
-import TaskManagerImg1 from '../../../Assets/Images/TaskManagerImg1.png'
-import TaskManagerImg2 from '../../../Assets/Images/TaskManagerImg2.png'
-import TaskManagerImg3 from '../../../Assets/Images/TaskManagerImg3.png'
+import TaskManagerImg1 from '../../../Assets/Images/TaskManagerImg1.jpg'
+import TaskManagerImg2 from '../../../Assets/Images/TaskManagerImg2.jpg'
+import TaskManagerImg3 from '../../../Assets/Images/TaskManagerImg3.jpg'
 
 const Content = {
     Title: 'Task Manager',

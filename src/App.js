@@ -12,7 +12,7 @@ import TaskManager from './Pages/Projects/TaskManager/TaskManager';
 
 import pallets from './Assets/Images/pallets.png';
 import afrImg from './Assets/Images/afrImg.png';
-import todo from './Assets/Images/TaskManagerImg1.png';
+import todo from './Assets/Images/TaskManagerImg1.jpg';
 
 //React Scroll ref
 import {useRef} from "react";

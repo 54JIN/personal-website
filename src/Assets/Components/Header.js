@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import './Header.css';
 
 //Components
-import Home from '../../Pages/Home2/Home';
+import Home from '../../Pages/Home/Home';
 import About from '../../Pages/About/About';
 import Experience from '../../Pages/Experience/Experience';
 import Contact from '../../Pages/Contact/Contact';

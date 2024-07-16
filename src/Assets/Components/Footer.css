@@ -3,7 +3,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 30vw
+        height: 30vw;
     }
     
     .Footer h2{
@@ -61,7 +61,7 @@
     }
 }
 
-@media only screen and (max-width: 4475px) {
+@media only screen and (max-width: 475px) {
     .Footer {
         display: flex;
         flex-direction: column;

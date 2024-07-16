@@ -19,8 +19,18 @@ const Content = {
         'Deployed the application on Heroku, enhancing creativity, and efficiency for users, and received positive feedback for its ease of use and functionality.'
     ],
     Link: 'https://54jin.github.io/color-project/',
-    img2: palletsImg2,
-    img3: palletsImg3,
+    Images: [
+        {
+            title: 'Create Pallete',
+            description: 'Allows the user to create a pallete of colors and organize them in particular order.',
+            img: palletsImg2
+        },
+        {
+            title: 'View Pallete',
+            description: 'Allows the user to to view and even adjust the depth of particular colors.',
+            img: palletsImg3
+        },
+    ]
 }
 
 class Pallets extends Component {

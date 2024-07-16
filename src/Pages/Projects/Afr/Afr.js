@@ -14,13 +14,22 @@ const Content = {
     skills: 'JavaScript | React | Node.js',
     Intro_Title: 'An Anonymous Food Review Site . . .',
     Description: [
-        'A brainstorming tool to help design with theme and color scheme. Utilizing JavaScript, Node.js, React, Bootstrap, and Figma.',
-        'Designed the UI, implemented features such as validations, animations, responsive navigation, routes, and cookies.',
-        'Deployed the application on Heroku, enhancing creativity, and efficiency for users, and received positive feedback for its ease of use and functionality.'
+        'Coming Soon . . . ',
+        'An anonmous food review website utilizing JavaScript, Node.js, React, Bootstrap, and Figma.',
     ],
     Link: 'https://54jin.github.io/afr/',
-    img2: AfrImg2,
-    img3: AfrImg3,
+    Images: [
+        {
+            title: 'Reviewd Food',
+            description: 'Allows the user to check out all the reviewed food.',
+            img: AfrImg2
+        },
+        {
+            title: 'About Me',
+            description: 'Allows the user to discover the purpose of the site.',
+            img: AfrImg3
+        },
+    ]
 }
 
 class Afr extends Component {

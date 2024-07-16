@@ -20,8 +20,18 @@ const Content = {
         'Deployed the application on Heroku, enhancing efficiency for users, and received positive feedback for its ease of use and functionality.'
     ],
     Link: 'https://jin-task-manager-e2e0e11982e2.herokuapp.com/',
-    img2: TaskManagerImg2,
-    img3: TaskManagerImg3,
+    Images: [
+        {
+            title: 'Log In Page',
+            description: 'Allows the site to log users in.',
+            img: TaskManagerImg2
+        },
+        {
+            title: 'Sign Up Page',
+            description: 'Allows the user to sign up for the application.',
+            img: TaskManagerImg3
+        },
+    ]
 }
 
 class TaskManager extends Component {

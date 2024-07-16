@@ -1,103 +1,133 @@
 .Projects {
     display: flex;
     flex-direction: column;
+    background-color: #214d3b;
 }
 
-.Projects-intro {
+.Projects-Header {
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: #482FD3;
+    height: 20vw;
+    margin-bottom: 4vw;
 }
 
-.Projects-intro h1{
-    font-size: 10.8vw;
-    margin-top: 0px;
-    margin-bottom: 0px;
+.Projects-Header h1 {
+    font-family:sans-serif;
+    font-size: 6vw;
+    text-align: center;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
     color: #CCF382;
 }
 
-.Projects-intro p {
-    font-size: 1vw;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    color: white;
-}
-
-.Projects-skills {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin-top: 15vh;
-    margin-bottom: 15vh;
-}
-
-.Projects-skills img {
-    width: 70vw;
-    object-fit: cover;
-}
-
-.Projects-skills h4 {
-    object-fit: cover;
+.Projects-Header p {
+    font-family:sans-serif;
     font-size: 1.3vw;
+    text-align: center;
+    line-height: 2vw;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+    width: 40vw;
+    color: #e9fff2;
 }
 
-.Projects-content {
+.Projects-Content {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 100vh;
-    background-color: #482FD3;
+    justify-content: space-around;
+    margin-bottom: 5vw;
 }
 
-.Projects-content-details {
-    width: 35vw;
+.Projects-Content img {
+    width: 40vw;
+    object-fit: cover;
+    border-radius: 2vw;
 }
 
-.Projects-content-details h2 {
-    font-size: 2.25vw;
+.Projects-Content-Details {
+    width: 40vw;
+}
+
+.Projects-Content-Details h2 {
+    font-family:sans-serif;
+    font-size: 2.3vw;
+    margin-top: 0px;
+    margin-bottom: 1vw;
     color: #CCF382;
 }
 
-.Projects-content-details p {
-    font-size: 0.9vw;
-    color: white;
+.Projects-Content-Details p {
+    font-family:sans-serif;
+    font-size: 1.3vw;
+    line-height: 2vw;
+    color: #e9fff2;
 }
 
-.Projects-content-details a {
-    margin-top: 5vw;
-}
-
-.Projects-content-details button {
-    background-color: #FFFFFF;
+.Projects-Content-Details button {
+    background-color: white;
     border: none;
-    width: 8vw;
-    height: 2.5vw;
-    margin-top: 1.3vw;
-    color: #482FD3;
-    font-size: 1.2vw;
+    border-radius: 2vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-family: sans-serif;
+    font-size: 1.3vw;
+    line-height: 2vw;
+    color: black;
     cursor: pointer;
 }
 
-.Projects-content-img img {
-    width: 40vw;
-    object-fit: cover;
-}
-
-.Projects-img {
+.Projects-Content-Documentation {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    height: 100vh;
-    padding-top: 8vh;
-    padding-bottom: 8vh;
+}
+.Projects-Content-Documentation-Card {
+    display: flex;
+    width: 70vw;
+    height: 48vw;
+    margin-bottom: 5vw;
 }
 
-.Projects-img img {
-    width: 70vw;
+.Projects-Content-Documentation-Card-BG {
+    display: flex;
+}
+
+.Projects-Content-Documentation-Card-BG img {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
+    border-radius: 2vw;
+}
+
+.Projects-Content-Documentation-Card-Overlay {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 66vw;
+    height: 48vw;
+    padding-left: 4vw;
+    background-color: rgba(0,0,0, 0.5);
+    border-radius: 2vw;
+    cursor: pointer;
+}
+
+.Projects-Content-Documentation-Card-Overlay h2 {
+    font-family:sans-serif;
+    font-size: 6vw;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 40vw;
+    color: #CCF382;
+}
+
+.Projects-Content-Documentation-Card-Overlay p {
+    font-family:sans-serif;
+    font-size: 1.3vw;
+    line-height: 2vw;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+    width: 40vw;
+    color: white;
 }

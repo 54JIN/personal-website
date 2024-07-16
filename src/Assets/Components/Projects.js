@@ -1,41 +1,42 @@
-import React, {Component} from 'react';
-
-import Footer  from './Footer';
-
 import './Projects.css';
 
-class Projects extends Component {
-    render() {
-        const { Title, Sub_Title, img1, skills, Intro_Title, Description, Link, img2, img3 } = this.props.Content
-        return(
-            <div className="Projects">
-                <div className='Projects-intro'>
-                    <h1>{Title}</h1>
-                    <p>{Sub_Title}</p>
-                </div>
-                <div className='Projects-skills'>
-                    <img src={img1} />
-                    <h4>{skills}</h4>
-                </div>
-                <div className='Projects-content'>
-                    <div className='Projects-content-details'>
-                        <h2>{Intro_Title}</h2>
-                        {Description.map((paragraph) => (
-                            <p>{paragraph}</p>
-                        ))}
-                        <a href={Link} target="_blank" rel="noreferrer"><button>Vist</button></a>
-                    </div>
-                    <div className='Projects-content-img'>
-                        <img src={img2} />
-                    </div>
-                </div>
-                <div className='Projects-img'>
-                    <img src={img3} />
-                </div>
-                <Footer />
+//Components
+import Header from './Header';
+import Footer from './Footer';
+
+function Projects({ Content }) {
+    const { Title, Sub_Title, img1, skills, Intro_Title, Description, Link, Images } = Content;
+    return (
+        <div className="Projects">
+            <Header />
+            <div className='Projects-Header'>
+                <h1>{Title}</h1>
+                <p>{Sub_Title}</p>
             </div>
-        );
-    }
+            <div className='Projects-Content'>
+                <img src={img1} alt={`${Title} Wallpaper`} />
+                <div className='Projects-Content-Details'>
+                    <h2>{Intro_Title}</h2>
+                    <p>{Description}</p>
+                    <a href={Link} target="_blank" rel="noreferrer"><button>Visit</button></a>
+                </div>
+            </div>
+            <div className='Projects-Content-Documentation'>
+                {Images.map((card) => (
+                    <div className='Projects-Content-Documentation-Card'>
+                        <div className='Projects-Content-Documentation-Card-BG'>
+                            <img src={card.img} />
+                        </div>
+                        <div className='Projects-Content-Documentation-Card-Overlay'>
+                            <h2>{card.title}</h2>
+                            <p>{card.description}</p>
+                        </div>
+                    </div>
+                ))}
+            </div>
+            <Footer />
+        </div>
+    );
 }
 
 export default Projects;

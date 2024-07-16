@@ -21,7 +21,7 @@ function Experience() {
             <Header page={2} />
             <div className='Experience-Header'>
                 <h1>Experience</h1>
-                <p>A display of where I gained my skillsets.</p>
+                <p>A display of where I gained my skill sets.</p>
             </div>
             <div className='Experience-Content-Wrapper'>
                 <div className='Experience-Content'>

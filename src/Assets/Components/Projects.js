@@ -17,13 +17,16 @@ function Projects({ Content }) {
                 <img src={img1} alt={`${Title} Wallpaper`} />
                 <div className='Projects-Content-Details'>
                     <h2>{Intro_Title}</h2>
-                    <p>{Description}</p>
+                    {Description.map((desc, idx) => (
+                        <p key={idx}>{desc}</p>
+                    ))}
+                    {/* <p>{Description}</p> */}
                     <a href={Link} target="_blank" rel="noreferrer"><button>Visit</button></a>
                 </div>
             </div>
             <div className='Projects-Content-Documentation'>
-                {Images.map((card) => (
-                    <div className='Projects-Content-Documentation-Card'>
+                {Images.map((card, idx) => (
+                    <div className='Projects-Content-Documentation-Card' key={idx}>
                         <div className='Projects-Content-Documentation-Card-BG'>
                             <img src={card.img} />
                         </div>

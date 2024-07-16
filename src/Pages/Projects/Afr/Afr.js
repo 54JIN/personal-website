@@ -12,7 +12,7 @@ const Content = {
     Sub_Title: 'Anonymous food blog for university students',
     img1: AfrImg1,
     skills: 'JavaScript | React | Node.js',
-    Intro_Title: 'An Anonymous Food Review Site . . .',
+    Intro_Title: 'An Anonymous Food Review Site',
     Description: [
         'Coming Soon . . . ',
         'An anonmous food review website utilizing JavaScript, Node.js, React, Bootstrap, and Figma.',

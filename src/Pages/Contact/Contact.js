@@ -22,7 +22,7 @@ function Contact() {
                     <a href="https://github.com/54JIN" target="_blank" rel="noreferrer">
                         <div className='Contact-Content-Button-Description'>
                             <h2>Github</h2>
-                            <p>Currently woring on Task Master & Blessed</p>
+                            <p>Currently working on Task Master & Blessed</p>
                         </div>
                         <img src={GithubLogo} alt="Github Logo" />
                     </a>

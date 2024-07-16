@@ -26,7 +26,7 @@ const projects = [
     {
         image: afrImg,
         title: "AFR",
-        description: "Anonymous Food Review Blog dedicated to Rutgers Resteraunts",
+        description: "Anonymous Food Review blog dedicated to Rutgers restaurants",
         link: "/personal-website/projects/afr",
         key: Afr,
     }

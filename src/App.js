@@ -1,6 +1,7 @@
 import './App.css';
 
 import Home from './Pages/Home/Home';
+import Home2 from './Pages/Home2/Home';
 import Carousel from "./Pages/Home/Carousel";
 import AboutMe from './Pages/Home/AboutMe';
 import Experience from './Pages/Home/Experience';
@@ -63,11 +64,12 @@ function App() {
 
   return (
     <div className="App">
-      <Home />
-      <Carousel Contents={NoteworthyProjects}/>
-      <AboutMe />
-      <Experience />
-      <Footer />
+      <Home2 />
+      {/* <Home /> */}
+      {/* <Carousel Contents={NoteworthyProjects}/> */}
+      {/* <AboutMe /> */}
+      {/* <Experience /> */}
+      {/* <Footer /> */}
     </div>
   );
 }

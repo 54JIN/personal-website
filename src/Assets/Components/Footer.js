@@ -9,7 +9,7 @@ class Footer extends Component {
     render() {
         return(
             <div className="Footer">
-                <h1>Get in Contact!</h1>
+                <h2>Get in Contact!</h2>
                 <div className="Footer-Images">
                     <a href="https://github.com/54JIN" target="_blank" rel="noreferrer"><img src={GithubLogo} className="BG4" alt="Github Logo" /></a>
                     <a href="https://www.linkedin.com/in/sajin-saju-917117200/" target="_blank" rel="noreferrer"><img src={LinkedlnLogo} className="BG4" alt="Linkdeln Logo" /></a>

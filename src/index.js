@@ -8,6 +8,9 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 //Imported Component Pages
 import App from './App';
+import About from './Pages/About/About';
+import Experience from './Pages/Experience/Experience';
+import Contact from './Pages/Contact/Contact';
 import Pallets from './Pages/Projects/Pallets/Pallets';
 import Afr from './Pages/Projects/Afr/Afr';
 import TaskManager from './Pages/Projects/TaskManager/TaskManager';
@@ -20,6 +23,26 @@ const router = createBrowserRouter([
     errorElement: <div>404 Not Found</div>
   },
   {
+    path: '/personal-website/about',
+    element: <About />,
+    errorElement: <div>404 Not Found</div>
+  },
+  {
+    path: '/personal-website/experience',
+    element: <Experience />,
+    errorElement: <div>404 Not Found</div>
+  },
+  {
+    path: '/personal-website/contact',
+    element: <Contact />,
+    errorElement: <div>404 Not Found</div>
+  },
+  {
+    path: '/personal-website/projects/task-manager',
+    element: <TaskManager />,
+    errorElement: <div>404 Not Found</div>
+  },
+  {
     path: '/personal-website/projects/pallets',
     element: <Pallets />,
     errorElement: <div>404 Not Found</div>
@@ -27,11 +50,6 @@ const router = createBrowserRouter([
   {
     path: '/personal-website/projects/afr',
     element: <Afr />,
-    errorElement: <div>404 Not Found</div>
-  },
-  {
-    path: '/personal-website/projects/task-manager',
-    element: <TaskManager />,
     errorElement: <div>404 Not Found</div>
   },
 ]);

@@ -1,46 +1,16 @@
-.Footer {
-    width: 100vw;
-    height: 50vw;
-    background-color: #482FD3;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.Footer h1{
-    color: #CCF382;
-    text-align: center;
-    font-size: 3.8vw;
-}
-
-.Footer-Images {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.Footer-Images img{
-    margin-left: 0px;
-    height: 8vw;
-}
-
-.emailClick {
-    cursor: pointer;
-}
-
-@media only screen and (max-width: 580px) {
+@media only screen and (min-width: 581px) {
     .Footer {
-        width: 100vw;
-        height: 80vw;
-        background-color: #482FD3;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        height: 30vw
     }
     
-    .Footer h1{
-        color: #CCF382;
+    .Footer h2{
+        font-family:sans-serif;
         text-align: center;
-        font-size: 6.8vw;
+        font-size: 3.8vw;
+        color: #CCF382;
     }
     
     .Footer-Images {
@@ -51,6 +21,70 @@
     .Footer-Images img{
         margin-left: 0px;
         height: 8vw;
+    }
+    
+    .emailClick {
+        cursor: pointer;
+    }
+}
+
+/* !--- Mobile ---! */
+
+@media only screen and (max-width: 580px) {
+    .Footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 35vw;
+        padding-bottom: 10vw;
+    }
+    
+    .Footer h2{
+        font-family:sans-serif;
+        text-align: center;
+        font-size: 5.8vw;
+        color: #CCF382;
+    }
+    
+    .Footer-Images {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .Footer-Images img{
+        margin-left: 0px;
+        height: 8vw;
+    }
+    
+    .emailClick {
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 4475px) {
+    .Footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 55vw;
+        padding-bottom: 20vw;
+    }
+    
+    .Footer h2{
+        font-family:sans-serif;
+        text-align: center;
+        font-size: 8.8vw;
+        color: #CCF382;
+    }
+    
+    .Footer-Images {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .Footer-Images img{
+        margin-left: 0px;
+        height: 15vw;
     }
     
     .emailClick {

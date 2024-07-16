@@ -2,6 +2,7 @@ import './App.css';
 
 import Home from './Pages/Home/Home';
 import Carousel2 from "./Pages/Home/Carousel2";
+import Carousel from "./Pages/Home/Carousel";
 import AboutMe from './Pages/Home/AboutMe';
 import Experience from './Pages/Home/Experience';
 import Footer from './Assets/Components/Footer';
@@ -66,7 +67,8 @@ function App() {
       <Home />
       {/* <Link key={Temp} to={'/personal-website/temp'} ><button>Test</button></Link> */}
       {/* <Carousel images={NoteworthyProjects}/> */}
-      <Carousel2 images={NoteworthyProjects}/>
+      {/* <Carousel2 images={NoteworthyProjects}/> */}
+      <Carousel Contents={NoteworthyProjects}/>
       <AboutMe />
       <Experience />
       <Footer />

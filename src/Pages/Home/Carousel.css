@@ -1,0 +1,272 @@
+@media only screen and (min-width: 581px) {
+    .Carousel-Frame {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70vw;
+        width: 100%;
+    }
+
+    .Carousel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 52vw;
+        width: 100%;
+    }
+    
+    .Carousel-Wrapper {
+        position: relative;
+        width: 80%;
+        height: 80%;
+    }
+    
+    .Carousel-Card {
+        display: flex;
+        flex: 1;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 2vw;
+        -webkit-box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.15); box-shadow: 0px 0px 11px 3px rgba(0,0,0,0.15);
+        opacity: 0;
+        pointer-events: none;
+        transform: scale(0.8);
+        transition: 0.5s ease-in-out;
+    }
+    
+    .Carousel-Card-Active {
+        opacity: 1;
+        transform: scale(1);
+        pointer-events: visible;
+    }
+
+    .Card-Image {
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .Card-Overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0, 0.5);
+        display: flex;
+        padding: 0vw 5vw;
+        align-items: flex-end;
+    }
+    
+    .Card-Overlay-Content {
+        display: flex;
+        flex-direction: column;
+        height: 55%;
+    }
+    
+    .Card-Title {
+        font-size: 9vw;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        color: #CCF382;
+    }
+    
+    .Card-Description {
+        font-size: 1vw;
+        margin-top: 0px;
+        margin-bottom: 1vw;
+        width: 40vw;
+        color: white;
+    }
+
+    .Card-Button {
+        background-color: white;
+        border: none;
+        border-radius: 0.7vw;
+        font-size: 1.2vw;
+        color: black;
+        width: 8vw;
+        height: 2.5vw;
+        cursor: pointer;
+    }
+    
+    .Card-Button:hover {
+        background: none;
+        border: #CCF382 solid;
+        color: #CCF382;
+        font-weight: bold;
+    }
+    
+    .Carousel-Arrow-Left, .Carousel-Arrow-Right {
+        position: absolute;
+        height: 1.6vw;
+        width: 1.6vw;
+        transform: rotate(45deg);
+        top: 50%;
+        cursor: pointer;
+    }
+    
+    .Carousel-Arrow-Left {
+        border-bottom: 0.25vw solid white;
+        border-left: 0.25vw solid white;
+        left: 2vw;
+    }
+    
+    .Carousel-Arrow-Right {
+        border-right: 0.25vw solid white;
+        border-top: 0.25vw solid white;
+        right: 2vw;
+    }
+    
+    .Carousel-Pagination {
+        position: absolute;
+        bottom: 1vw;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    
+    .Pagination-Dot {
+        height: 2vw;
+        width: 2vw;
+        background-color: white;
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: 1vw;
+        cursor: pointer;
+    }
+    
+    .Pagination-Dot:hover {
+        transform: scale(1.1);
+    }
+    
+    .Pagination-Dot-Active {
+        background-color: #CCF382;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .Carousel-Frame {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 120vw;
+        width: 100%;
+    }
+
+    .Carousel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vw;
+        width: 100%;
+    }
+    
+    .Carousel-Wrapper {
+        position: relative;
+        width: 80%;
+        height: 80%;
+    }
+    
+    .Carousel-Card {
+        display: flex;
+        flex: 1;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 2vw;
+        -webkit-box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.15); box-shadow: 0px 0px 11px 3px rgba(0,0,0,0.15);
+        opacity: 0;
+        pointer-events: none;
+        transform: scale(0.8);
+        transition: 0.5s ease-in-out;
+    }
+    
+    .Carousel-Card-Active {
+        opacity: 1;
+        transform: scale(1);
+        pointer-events: visible;
+    }
+
+    .Card-Image {
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .Card-Overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0, 0.5);
+        display: flex;
+        padding: 0vw 5vw;
+        align-items: flex-end;
+    }
+    
+    .Card-Overlay-Content {
+        display: flex;
+        flex-direction: column;
+        height: 45%;
+    }
+    
+    .Card-Title {
+        font-size: 9.5vw;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        color: #CCF382;
+    }
+    
+    .Card-Description {
+        font-size: 2vw;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 50vw;
+        color: white;
+    }
+
+    .Card-Button {
+        background-color: white;
+        border: none;
+        border-radius: 0.7vw;
+        font-size: 2vw;
+        color: black;
+        width: 12vw;
+        height: 3.5vw;
+        cursor: pointer;
+    }
+    
+    .Card-Button:hover {
+        background: none;
+        border: #CCF382 solid;
+        color: #CCF382;
+        font-weight: bold;
+    }
+    
+    .Carousel-Arrow-Left, .Carousel-Arrow-Right {
+        display: none;
+    }
+    
+    .Carousel-Pagination {
+        position: absolute;
+        bottom: 1vw;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    
+    .Pagination-Dot {
+        height: 2vw;
+        width: 2vw;
+        background-color: white;
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: 1vw;
+        cursor: pointer;
+    }
+    
+    .Pagination-Dot:hover {
+        transform: scale(1.1);
+    }
+    
+    .Pagination-Dot-Active {
+        background-color: #CCF382;
+    }
+}

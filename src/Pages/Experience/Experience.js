@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { motion } from 'framer-motion';
 
 import './Experience.css';
 
@@ -19,10 +20,21 @@ function Experience() {
     return (
         <div className="Experience">
             <Header page={2} />
-            <div className='Experience-Header'>
+            <motion.div 
+                className='Experience-Header'
+                variants={{
+                    hidden: { opacity: 0, y: -75 },
+                    visible: { opacity:1, y: 0 },
+                }}
+                initial="hidden"
+                animate="visible"
+                transition={{
+                    duration: 0.5,
+                }}
+            >
                 <h1>Experience</h1>
                 <p>A display of where I gained my skill sets.</p>
-            </div>
+            </motion.div>
             <div className='Experience-Content-Wrapper'>
                 <div className='Experience-Content'>
                     <div className='Experience-Content-Timeline'>

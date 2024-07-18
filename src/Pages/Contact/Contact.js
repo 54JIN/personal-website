@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import './Contact.css';
 
 //Components
@@ -13,10 +14,21 @@ function Contact() {
     return (
         <div className="Contact">
             <Header page={3} />
-            <div className='Contact-Header'>
+            <motion.div 
+                className='Contact-Header'
+                variants={{
+                    hidden: { opacity: 0, y: -75 },
+                    visible: { opacity:1, y: 0 },
+                }}
+                initial="hidden"
+                animate="visible"
+                transition={{
+                    duration: 0.5,
+                }}
+            >
                 <h1>Get in Touch</h1>
                 <p>Looking forward to hearing from you!</p>
-            </div>
+            </motion.div>
             <div className='Contact-Content'>
                 <div className='Contact-Content-Button'>
                     <a href="https://github.com/54JIN" target="_blank" rel="noreferrer">

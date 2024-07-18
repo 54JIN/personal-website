@@ -34,7 +34,7 @@ function Projects({ Content }) {
                 {Images.map((card, idx) => (
                     <div className='Projects-Content-Documentation-Card' key={idx}>
                         <div className='Projects-Content-Documentation-Card-BG'>
-                            <img src={card.img} />
+                            <img src={card.img} alt={`${idx}-${card.title}`}/>
                         </div>
                         <div className='Projects-Content-Documentation-Card-Overlay'>
                             <h2>{card.title}</h2>

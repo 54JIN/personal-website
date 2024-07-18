@@ -1,3 +1,5 @@
+import { motion } from 'framer-motion';
+
 import './About.css';
 
 //Components
@@ -13,12 +15,23 @@ function About() {
         <div className="About">
             <Header page={1} />
             <div className="About-Wrapper">
-                <div className='About-Header'>
+                <motion.div 
+                    className='About-Header'
+                    variants={{
+                        hidden: { opacity: 0, y: -75 },
+                        visible: { opacity:1, y: 0 },
+                    }}
+                    initial="hidden"
+                    animate="visible"
+                    transition={{
+                        duration: 0.5,
+                    }}
+                >
                     <h1>I'm Sajin.</h1>
-                </div>
+                </motion.div>
                 <div className='About-Content'>
                     <div className='About-Content-Image'>
-                        <img src={profilePic} alt="Profile Picture" />
+                        <img src={profilePic} alt="Profile" />
                     </div>
                     <div className='About-Content-Details'>
                         <h3>I'm a Full Stack Software Developer open to work and new opportunities.</h3>

@@ -76,6 +76,37 @@
     color: black;
     cursor: pointer;
 }
+.Projects-Content-Details button:hover {
+    background: none;
+    border: solid white;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.Projects-Content-Details-Skills {
+    display: flex;
+    width: 100%;
+}
+
+.Projects-Content-Details-Skills p {
+    font-family: sans-serif;
+    font-size: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin-top: 0px;
+    margin-bottom: 1vw;
+    color: #CCF382;
+    border: #CCF382 solid;
+    border-radius: 2vw;
+    margin-right: 0.5vw;
+}
+
+.Projects-Content-Details-Skills p:hover {
+    background-color: #CCF382;
+    font-weight: bold;
+    color: black;
+}
 
 .Projects-Content-Documentation {
     display: flex;

@@ -11,7 +11,7 @@ const Content = {
     Title: 'Pallets',
     Sub_Title: 'Frontend developer tool to create color themes',
     img1: palletsImg1,
-    skills: 'JavaScript | React | Node.js | Bootstrap',
+    skills: ['JavaScript', 'React', 'Node.js', 'Bootstrap'],
     Intro_Title: 'A UI/UX Designers Best Friend . . .',
     Description: [
         'A brainstorming tool to help design with theme and color scheme. Utilizing JavaScript, Node.js, React, Bootstrap, and Figma.',

@@ -20,7 +20,13 @@ function Projects({ Content }) {
                     {Description.map((desc, idx) => (
                         <p key={idx}>{desc}</p>
                     ))}
-                    {/* <p>{Description}</p> */}
+                    <div className='Projects-Content-Details-Skills'>
+                        {skills.map((skill) => {
+                            return (
+                                <p>{skill}</p>
+                            )
+                        })}
+                    </div>
                     <a href={Link} target="_blank" rel="noreferrer"><button>Visit</button></a>
                 </div>
             </div>

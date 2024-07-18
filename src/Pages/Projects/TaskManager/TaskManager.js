@@ -11,13 +11,12 @@ const Content = {
     Title: 'Task Manager',
     Sub_Title: 'Full-stack application for daily Task management',
     img1: TaskManagerImg1,
-    skills: 'JavaScript | React | Node.js | MongoDb | Axios | Jest',
+    skills: ['JavaScript', 'React', 'Node.js', 'MongoDb', 'Axios', 'Jest'],
     Intro_Title: 'Your Daily Helper . . .',
     Description: [
-        'A full-stack application for daily task management.',
-        'Implemented user authentication, CRUD operations, and data analysis utilizing JavaScript, Node.js, React, MongoDb, Git, and Heroku.',
-        'Streamlined task management, increasing user productivity and organization.',
-        'Deployed the application on Heroku, enhancing efficiency for users, and received positive feedback for its ease of use and functionality.'
+        'A full-stack application for daily task management, increasing user productivity and organization.',
+        'Implemented user authentication, CRUD operations, and data analysis utilizing the MERN tech stack: MongoDB, Express, React.js, and Node.js.',
+        'Employed unit testing via Jest, Github (Git) for version control, and deployed via Heroku',
     ],
     Link: 'https://jin-task-manager-e2e0e11982e2.herokuapp.com/',
     Images: [

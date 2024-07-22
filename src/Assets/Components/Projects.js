@@ -5,7 +5,7 @@ import Header from './Header';
 import Footer from './Footer';
 
 function Projects({ Content }) {
-    const { Title, Sub_Title, img1, skills, Intro_Title, Description, Link, Images } = Content;
+    const { Title, Sub_Title, img1, skills, Intro_Title, Description, Link, Video } = Content;
     return (
         <div className="Projects">
             <Header />
@@ -31,17 +31,7 @@ function Projects({ Content }) {
                 </div>
             </div>
             <div className='Projects-Content-Documentation'>
-                {Images.map((card, idx) => (
-                    <div className='Projects-Content-Documentation-Card' key={idx}>
-                        <div className='Projects-Content-Documentation-Card-BG'>
-                            <img src={card.img} alt={`${idx}-${card.title}`}/>
-                        </div>
-                        <div className='Projects-Content-Documentation-Card-Overlay'>
-                            <h2>{card.title}</h2>
-                            <p>{card.description}</p>
-                        </div>
-                    </div>
-                ))}
+                <video src={Video} autoPlay loop muted disablePictureInPicture />
             </div>
             <Footer />
         </div>

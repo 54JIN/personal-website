@@ -4,8 +4,7 @@ import './Pallets.css';
 import Projects from '../../../Assets/Components/Projects';
 
 import palletsImg1 from '../../../Assets/Images/pallets.png'
-import palletsImg2 from '../../../Assets/Images/palletsImg2.png'
-import palletsImg3 from '../../../Assets/Images/palletsImg3.png'
+import PalletsVid from '../../../Assets/Images/PalletsVid.mp4'
 
 const Content = {
     Title: 'Pallets',
@@ -19,18 +18,7 @@ const Content = {
         'Deployed the application on Heroku, enhancing creativity, and efficiency for users, and received positive feedback for its ease of use and functionality.'
     ],
     Link: 'https://54jin.github.io/color-project/',
-    Images: [
-        {
-            title: 'Create Pallete',
-            description: 'Allows the user to create a pallete of colors and organize them in particular order.',
-            img: palletsImg2
-        },
-        {
-            title: 'View Pallete',
-            description: 'Allows the user to to view and even adjust the depth of particular colors.',
-            img: palletsImg3
-        },
-    ]
+    Video: PalletsVid
 }
 
 class Pallets extends Component {

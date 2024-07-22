@@ -4,8 +4,7 @@ import './TaskManager.css';
 import Projects from '../../../Assets/Components/Projects';
 
 import TaskManagerImg1 from '../../../Assets/Images/TaskManagerImg1.jpg'
-import TaskManagerImg2 from '../../../Assets/Images/TaskManagerImg2.jpg'
-import TaskManagerImg3 from '../../../Assets/Images/TaskManagerImg3.jpg'
+import TaskManagerVid from '../../../Assets/Images/TaskManagerVid.mp4'
 
 const Content = {
     Title: 'Task Manager',
@@ -19,18 +18,7 @@ const Content = {
         'Employed unit testing via Jest, Github (Git) for version control, and deployed via Heroku',
     ],
     Link: 'https://jin-task-manager-e2e0e11982e2.herokuapp.com/',
-    Images: [
-        {
-            title: 'Log In Page',
-            description: 'Allows the site to log users in.',
-            img: TaskManagerImg2
-        },
-        {
-            title: 'Sign Up Page',
-            description: 'Allows the user to sign up for the application.',
-            img: TaskManagerImg3
-        },
-    ]
+    Video: TaskManagerVid
 }
 
 class TaskManager extends Component {

@@ -12,6 +12,7 @@ import About from './Pages/About/About';
 import Experience from './Pages/Experience/Experience';
 import Contact from './Pages/Contact/Contact';
 import Pallets from './Pages/Projects/Pallets/Pallets';
+import Portfolio from './Pages/Projects/Portfolio/Portfolio';
 import Afr from './Pages/Projects/Afr/Afr';
 import TaskManager from './Pages/Projects/TaskManager/TaskManager';
 
@@ -45,6 +46,11 @@ const router = createBrowserRouter([
   {
     path: '/personal-website/projects/pallets',
     element: <Pallets />,
+    errorElement: <div>404 Not Found</div>
+  },
+  {
+    path: '/personal-website/projects/portfolio',
+    element: <Portfolio />,
     errorElement: <div>404 Not Found</div>
   },
   {

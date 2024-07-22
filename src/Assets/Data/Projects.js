@@ -6,6 +6,7 @@ import afrImg from '../Images/afrImg.png';
 //Components
 import TaskManager from '../../Pages/Projects/TaskManager/TaskManager';
 import Pallets from '../../Pages/Projects/Pallets/Pallets';
+import Portfolio from '../../Pages/Projects/Portfolio/Portfolio';
 import Afr from '../../Pages/Projects/Afr/Afr';
 
 const projects = [
@@ -22,6 +23,13 @@ const projects = [
         description: "Frontend developer tool to create color themes",
         link: "/personal-website/projects/pallets",
         key: Pallets,
+    },
+    {
+        image: Portfolio,
+        title: "Portfolio",
+        description: "A portfolio website showcasing a software engineer\'s skillsets",
+        link: "/personal-website/projects/portfolio",
+        key: Portfolio,
     },
     {
         image: afrImg,

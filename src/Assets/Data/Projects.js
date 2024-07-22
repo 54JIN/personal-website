@@ -1,6 +1,7 @@
 //Images
 import todo from '../Images/TaskManagerImg1.jpg'
 import pallets from '../Images/pallets.png';
+import portfolio from '../Images/PortfolioImg.png';
 import afrImg from '../Images/afrImg.png';
 
 //Components
@@ -25,7 +26,7 @@ const projects = [
         key: Pallets,
     },
     {
-        image: Portfolio,
+        image: portfolio,
         title: "Portfolio",
         description: "A portfolio website showcasing a software engineer\'s skillsets",
         link: "/personal-website/projects/portfolio",

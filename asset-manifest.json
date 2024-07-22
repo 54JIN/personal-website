@@ -1,28 +1,27 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.632094b6.css",
-    "main.js": "/personal-website/static/js/main.bcba5493.js",
+    "main.css": "/personal-website/static/css/main.02582df8.css",
+    "main.js": "/personal-website/static/js/main.50ce2740.js",
     "static/js/787.0f15b36d.chunk.js": "/personal-website/static/js/787.0f15b36d.chunk.js",
+    "static/media/AFRVid.mp4": "/personal-website/static/media/AFRVid.639815573db1821621e1.mp4",
+    "static/media/PortfolioVid.mp4": "/personal-website/static/media/PortfolioVid.8a7e9e7deaaad0d0f8e5.mp4",
+    "static/media/PalletsVid.mp4": "/personal-website/static/media/PalletsVid.867ac05621bb9f7dcc3e.mp4",
     "static/media/profile-removebg.png": "/personal-website/static/media/profile-removebg.7e6de41becf75f939f4a.png",
+    "static/media/TaskManagerVid.mp4": "/personal-website/static/media/TaskManagerVid.d04498f69f4baaab67fc.mp4",
     "static/media/afrImg.png": "/personal-website/static/media/afrImg.8c6b497edb6fbd24525b.png",
-    "static/media/afrImg2.png": "/personal-website/static/media/afrImg2.de29cac42d34c26c409a.png",
-    "static/media/afrImg3.png": "/personal-website/static/media/afrImg3.35cac0f96a3d4036ebb7.png",
-    "static/media/TaskManagerImg2.jpg": "/personal-website/static/media/TaskManagerImg2.daeca92590f471b2f9cd.jpg",
-    "static/media/TaskManagerImg3.jpg": "/personal-website/static/media/TaskManagerImg3.e0011e6f728b75c8be24.jpg",
     "static/media/TaskManagerImg1.jpg": "/personal-website/static/media/TaskManagerImg1.2b97adcba0b0a2b2feaf.jpg",
-    "static/media/palletsImg3.png": "/personal-website/static/media/palletsImg3.e0eac5a7d689aae0ec68.png",
-    "static/media/palletsImg2.png": "/personal-website/static/media/palletsImg2.8254f26bbf5e9b27fee4.png",
+    "static/media/PortfolioImg.png": "/personal-website/static/media/PortfolioImg.2ca03a09d6a5224a5779.png",
     "static/media/pallets.png": "/personal-website/static/media/pallets.9e0c70685db63a4923a7.png",
     "static/media/GithubLogo.svg": "/personal-website/static/media/GithubLogo.0fbf439714bb32d77bfef1b4f4585c46.svg",
     "static/media/LinkedlnLogo.svg": "/personal-website/static/media/LinkedlnLogo.06c00b576d10baaf20e9184957f805d1.svg",
     "index.html": "/personal-website/index.html",
     "static/media/EmailLogo.svg": "/personal-website/static/media/EmailLogo.4941bffdf06c8fbfd76c66cafeb428cd.svg",
-    "main.632094b6.css.map": "/personal-website/static/css/main.632094b6.css.map",
-    "main.bcba5493.js.map": "/personal-website/static/js/main.bcba5493.js.map",
+    "main.02582df8.css.map": "/personal-website/static/css/main.02582df8.css.map",
+    "main.50ce2740.js.map": "/personal-website/static/js/main.50ce2740.js.map",
     "787.0f15b36d.chunk.js.map": "/personal-website/static/js/787.0f15b36d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.632094b6.css",
-    "static/js/main.bcba5493.js"
+    "static/css/main.02582df8.css",
+    "static/js/main.50ce2740.js"
   ]
 }

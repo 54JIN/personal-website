@@ -1,5 +1,24 @@
 const resume = [
     {
+        Company: "Digital Factory",
+        Position: "Backend Developer Intern",
+        startDate: "Aug. 2024",
+        endDate: "Present",
+        details: [
+            "Newly Started, wait for updates!!",
+        ]
+    },
+    {
+        Company: "Headstarter AI",
+        Position: "Software Engineer Fellow",
+        startDate: "July. 2024",
+        endDate: "Sept. 2024",
+        details: [
+            "Developed and launched a MERN stack application, using Git and Heroku, to connect micro influencers with local vendors, achieving 1,000 account creations.",
+            "Implemented a pantry tracker, utilizing Next.js & integrating GCP & OpenAI for intelligent suggestions based on ingredient availability, saving users an average of 30 minutes weekly on meal planning.",
+        ]
+    },
+    {
         Company: "GAF Materials Corporation",
         Position: "Data & RPA Analyst - Intern",
         startDate: "Jun. 2022",

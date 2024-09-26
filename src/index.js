@@ -15,6 +15,7 @@ import Pallets from './Pages/Projects/Pallets/Pallets';
 import Portfolio from './Pages/Projects/Portfolio/Portfolio';
 import Afr from './Pages/Projects/Afr/Afr';
 import TaskManager from './Pages/Projects/TaskManager/TaskManager';
+import GhostLink from './Pages/Projects/GhostLink/GhostLink';
 
 const router = createBrowserRouter([
   //Page Objects
@@ -36,6 +37,11 @@ const router = createBrowserRouter([
   {
     path: '/personal-website/contact',
     element: <Contact />,
+    errorElement: <div>404 Not Found</div>
+  },
+  {
+    path: '/personal-website/projects/ghostlink',
+    element: <GhostLink />,
     errorElement: <div>404 Not Found</div>
   },
   {

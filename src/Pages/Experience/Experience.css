@@ -35,82 +35,52 @@
     
     .Experience-Content-Wrapper {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
         padding-top: 10vw;
+        width: 89vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
     }
     
     .Experience-Content {
-        display: flex;
-        justify-content: space-around;
-        width: 100%;;
-    }
-    
-    .Experience-Content-Timeline {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .Experience-Content-Timeline-Profession {
-        margin-bottom: 1vw;
-    }
-    
-    .Experience-Content-Timeline-Profession button {
-        background-color: rgba(41, 98, 73, 0.7);
-        border: solid rgba(225,247,234,0.6) 1px;
-        border-radius: 1vw;
-        padding-top: 1vw;
+        min-height: 400px;
+        margin-bottom: 5vw;
         padding-left: 2vw;
         padding-right: 2vw;
-        padding-bottom: 1vw;
-        width: 25vw;
-        cursor: pointer;
+        padding-bottom: 2vw;
+        border-radius: 2vw;
+        background-color:rgba(30,71,53,0.7);
+        -webkit-box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.15); box-shadow: 0px 0px 11px 3px rgba(0,0,0,0.15);
+        width: 38vw;
     }
-    
-    .Experience-Content-Timeline-Profession button:hover {
-        transform: scale(1.02);
-        transition: 0.2s ease-in-out;
+
+    .Experience-Content-Right {
+        align-self: flex-end;
     }
-    
-    .Experience-Content-Timeline-Profession-Content h3 {
+
+    .Experience-Content h3 {
         font-family:sans-serif;
-        font-size: 1.1vw;
-        text-align: start;
-        margin-top: 0.5vw;
+        font-size: 1.8vw;
+        margin-top: 2vw;
         margin-bottom: 0.5vw;
         color: #CCF382;
     }
     
-    .Experience-Content-Timeline-Profession-Content p {
+    .Experience-Content p {
         font-family:sans-serif;
-        font-size: 1vw;
-        text-align: start;
+        font-size: 1.4vw;
         line-height: 2vw;
         margin-top: 0.5vw;
         margin-bottom: 0.5vw;
-        width: 40vw;
-        color: #e9fff2;
+        color: #eeeeee;
     }
-    
-    .Experience-Content-Details {
-        display: flex;
-        flex-direction: column;
-        width: 40vw;
-        background-color: rgba(30,71,53,0.7);
-        border-radius: 1.5vw;
-        padding-top: 3vw;
-        padding-left: 3vw;
-        padding-right: 3vw;
-        padding-bottom: 3vw;
-    }
-    
-    .Experience-Content-Details p {
+
+    .Experience-Content-Description p {
         font-family:sans-serif;
         font-size: 1vw;
-        text-align: start;
         line-height: 2vw;
         margin-top: 0.5vw;
         margin-bottom: 0.5vw;
-        width: 40vw;
         color: #e9fff2;
     }
 }
@@ -154,83 +124,47 @@
     
     .Experience-Content-Wrapper {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
         padding-top: 10vw;
+        width: 99vw;
     }
     
     .Experience-Content {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        width: 100%;
-    }
-    
-    .Experience-Content-Timeline {
-        display: flex;
-        justify-content: space-between;
-        width: 70vw;
-    }
-    
-    .Experience-Content-Timeline-Profession {
-        margin-bottom: 7vw;
-    }
-    
-    .Experience-Content-Timeline-Profession button {
-        background-color: rgba(41, 98, 73, 0.7);
-        border: solid rgba(225,247,234,0.6) 1px;
-        border-radius: 1vw;
-        padding-top: 1vw;
+        margin-bottom: 10vw;
         padding-left: 2vw;
         padding-right: 2vw;
-        padding-bottom: 1vw;
-        width: 33vw;
-        height: 15vw;
-        cursor: pointer;
+        padding-bottom: 2vw;
+        border-radius: 2vw;
+        background-color:rgba(30,71,53,0.7);
+        -webkit-box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.15); box-shadow: 0px 0px 11px 3px rgba(0,0,0,0.15);
+        width: 90%;
+        height: 100%;
     }
-    
-    .Experience-Content-Timeline-Profession button:hover {
-        transform: scale(1.02);
-        transition: 0.2s ease-in-out;
-    }
-    
-    .Experience-Content-Timeline-Profession-Content h3 {
+
+    .Experience-Content h3 {
         font-family:sans-serif;
-        font-size: 2.5vw;
-        text-align: start;
-        margin-top: 0.5vw;
-        margin-bottom: 0.5vw;
+        font-size: 4.5vw;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
         color: #CCF382;
     }
     
-    .Experience-Content-Timeline-Profession-Content p {
+    .Experience-Content p {
         font-family:sans-serif;
-        font-size: 1.5vw;
-        text-align: start;
-        line-height: 2vw;
-        margin-top: 0.5vw;
-        margin-bottom: 0.5vw;
-        color: #e9fff2;
+        font-size: 4vw;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+        color: #eeeeee;
     }
-    
-    .Experience-Content-Details {
-        display: flex;
-        flex-direction: column;
-        width: 64vw;
-        background-color: rgba(30,71,53,0.7);
-        border-radius: 1.5vw;
-        padding-top: 3vw;
-        padding-left: 5vw;
-        padding-right: 5vw;
-        padding-bottom: 3vw;
-    }
-    
-    .Experience-Content-Details p {
+
+    .Experience-Content-Description p {
         font-family:sans-serif;
-        font-size: 3vw;
-        line-height: 5vw;
-        margin-top: 2vw;
-        margin-bottom: 2vw; 
-        width: 64vw;
+        font-size: 4vw;
+        margin-top: 0px;
+        margin-bottom: 3vw;
         color: #e9fff2;
     }
 }
@@ -272,83 +206,47 @@
     
     .Experience-Content-Wrapper {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
         padding-top: 10vw;
+        width: 99vw;
     }
     
     .Experience-Content {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        width: 100%;
-    }
-    
-    .Experience-Content-Timeline {
-        display: flex;
-        justify-content: space-between;
-        width: 70vw;
-    }
-    
-    .Experience-Content-Timeline-Profession {
-        margin-bottom: 7vw;
-    }
-    
-    .Experience-Content-Timeline-Profession button {
-        background-color: rgba(41, 98, 73, 0.7);
-        border: solid rgba(225,247,234,0.6) 1px;
-        border-radius: 1vw;
-        padding-top: 1vw;
+        margin-bottom: 10vw;
         padding-left: 2vw;
         padding-right: 2vw;
-        padding-bottom: 1vw;
-        width: 33vw;
-        height: 20vw;
-        cursor: pointer;
+        padding-bottom: 2vw;
+        border-radius: 2vw;
+        background-color:rgba(30,71,53,0.7);
+        -webkit-box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.15); box-shadow: 0px 0px 11px 3px rgba(0,0,0,0.15);
+        width: 90%;
+        height: 100%;
     }
-    
-    .Experience-Content-Timeline-Profession button:hover {
-        transform: scale(1.02);
-        transition: 0.2s ease-in-out;
-    }
-    
-    .Experience-Content-Timeline-Profession-Content h3 {
+
+    .Experience-Content h3 {
         font-family:sans-serif;
-        font-size: 3.0vw;
-        text-align: start;
-        margin-top: 0.5vw;
-        margin-bottom: 0.5vw;
+        font-size: 4.5vw;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
         color: #CCF382;
     }
     
-    .Experience-Content-Timeline-Profession-Content p {
+    .Experience-Content p {
         font-family:sans-serif;
-        font-size: 2vw;
-        text-align: start;
-        line-height: 2vw;
-        margin-top: 0.5vw;
-        margin-bottom: 0.5vw;
-        color: #e9fff2;
+        font-size: 4vw;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+        color: #eeeeee;
     }
-    
-    .Experience-Content-Details {
-        display: flex;
-        flex-direction: column;
-        width: 64vw;
-        background-color: rgba(30,71,53,0.7);
-        border-radius: 1.5vw;
-        padding-top: 3vw;
-        padding-left: 5vw;
-        padding-right: 5vw;
-        padding-bottom: 3vw;
-    }
-    
-    .Experience-Content-Details p {
+
+    .Experience-Content-Description p {
         font-family:sans-serif;
-        font-size: 5vw;
-        line-height: 9vw;
-        margin-top: 2vw;
-        margin-bottom: 2vw;
-        width: 64vw;
+        font-size: 4vw;
+        margin-top: 0px;
+        margin-bottom: 3vw;
         color: #e9fff2;
     }
 }

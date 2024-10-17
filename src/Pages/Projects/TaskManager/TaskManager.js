@@ -10,7 +10,7 @@ const Content = {
     Title: 'Task Manager',
     Sub_Title: 'Full-stack application for daily Task management',
     img1: TaskManagerImg1,
-    skills: ['JavaScript', 'React', 'Node.js', 'MongoDb', 'Axios', 'Jest'],
+    skills: ['JavaScript', 'React', 'Node.js', 'MongoDB', 'Axios', 'Jest'],
     Intro_Title: 'Your Daily Helper . . .',
     Description: [
         'A full-stack application for daily task management, increasing user productivity and organization.',

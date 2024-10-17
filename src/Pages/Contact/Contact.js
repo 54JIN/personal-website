@@ -32,6 +32,23 @@ function Contact() {
             <div className='Contact-Content'>
                 <div className='Contact-Content-Button'>
                     <a href="https://github.com/54JIN" target="_blank" rel="noreferrer">
+                        <img src={GithubLogo} alt="Github Logo" />
+                    </a>
+                </div>
+                <div className='Contact-Content-Button'>
+                    <a href="https://www.linkedin.com/in/sajin-saju-917117200/" target="_blank" rel="noreferrer">
+                        <img src={LinkedlnLogo} alt="Linkdeln Logo" />
+                    </a>
+                </div>
+                <div className='Contact-Content-Button'>
+                    <div className='Contact-Content-Button-Email'>
+                        <img src={EmailLogo} alt="Email Logo" />
+                    </div>
+                </div>
+            </div>
+            {/* <div className='Contact-Content'>
+                <div className='Contact-Content-Button'>
+                    <a href="https://github.com/54JIN" target="_blank" rel="noreferrer">
                         <div className='Contact-Content-Button-Description'>
                             <h2>Github</h2>
                             <p>Currently working on Task Master & Blessed</p>
@@ -57,7 +74,7 @@ function Contact() {
                         <img src={EmailLogo} alt="Email Logo" />
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 }

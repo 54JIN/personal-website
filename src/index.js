@@ -16,6 +16,7 @@ import Portfolio from './Pages/Projects/Portfolio/Portfolio';
 import Afr from './Pages/Projects/Afr/Afr';
 import TaskManager from './Pages/Projects/TaskManager/TaskManager';
 import GhostLink from './Pages/Projects/GhostLink/GhostLink';
+import SizeAndStitch from './Pages/Projects/SizeAndStitch/SizeAndStitch';
 
 const router = createBrowserRouter([
   //Page Objects
@@ -47,6 +48,11 @@ const router = createBrowserRouter([
   {
     path: '/personal-website/projects/task-manager',
     element: <TaskManager />,
+    errorElement: <div>404 Not Found</div>
+  },
+  {
+    path: '/personal-website/projects/sizeandstitch',
+    element: <SizeAndStitch />,
     errorElement: <div>404 Not Found</div>
   },
   {

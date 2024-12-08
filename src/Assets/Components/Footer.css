@@ -1,93 +1,108 @@
-@media only screen and (min-width: 581px) {
-    .Footer {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        height: 30vw;
-    }
-    
-    .Footer h2{
-        font-family:sans-serif;
-        text-align: center;
-        font-size: 3.8vw;
-        color: #CCF382;
-    }
-    
-    .Footer-Images {
-        display: flex;
-        justify-content: space-evenly;
-    }
-    
-    .Footer-Images img{
-        margin-left: 0px;
-        height: 8vw;
-    }
-    
-    .emailClick {
-        cursor: pointer;
-    }
+.Footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 50px;
 }
 
-/* !--- Mobile ---! */
-
-@media only screen and (max-width: 580px) {
-    .Footer {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        height: 35vw;
-        padding-bottom: 10vw;
-    }
-    
-    .Footer h2{
-        font-family:sans-serif;
-        text-align: center;
-        font-size: 5.8vw;
-        color: #CCF382;
-    }
-    
-    .Footer-Images {
-        display: flex;
-        justify-content: space-evenly;
-    }
-    
-    .Footer-Images img{
-        margin-left: 0px;
-        height: 8vw;
-    }
-    
-    .emailClick {
-        cursor: pointer;
-    }
+.Footer h2 {
+  font-family: sans-serif;
+  text-align: center;
 }
 
+.Footer-Images {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.Footer-Images img {
+  margin-left: 0px;
+  height: 50px;
+}
+
+.emailClick {
+  cursor: pointer;
+}
+
+/* 
+ * LG Tablet
+*/
+@media only screen and (max-width: 1024px) {
+    .Footer {
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+      }
+      
+      .Footer-Images {
+        gap: 30px;
+      }
+      
+      .Footer-Images img {
+        height: 30px;
+      }
+}
+
+/* 
+ * Tablet
+*/
+@media only screen and (max-width: 768px) {
+    .Footer {
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+      }
+      
+      .Footer-Images {
+        gap: 30px;
+      }
+      
+      .Footer-Images img {
+        height: 25px;
+      }
+}
+
+/* 
+ * SM Mobile
+*/
+@media only screen and (max-width: 640px) {
+    .Footer {
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+      }
+      
+      .Footer-Images {
+        gap: 30px;
+      }
+      
+      .Footer-Images img {
+        height: 20px;
+      }
+}
+
+/* 
+ * Mobile
+*/
 @media only screen and (max-width: 475px) {
     .Footer {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        height: 55vw;
-        padding-bottom: 20vw;
-    }
-    
-    .Footer h2{
-        font-family:sans-serif;
-        text-align: center;
-        font-size: 8.8vw;
-        color: #CCF382;
-    }
-    
-    .Footer-Images {
-        display: flex;
-        justify-content: space-evenly;
-    }
-    
-    .Footer-Images img{
-        margin-left: 0px;
-        height: 15vw;
-    }
-    
-    .emailClick {
-        cursor: pointer;
-    }
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+      }
+      
+      .Footer-Images {
+        gap: 30px;
+      }
+      
+      .Footer-Images img {
+        height: 20px;
+      }
 }

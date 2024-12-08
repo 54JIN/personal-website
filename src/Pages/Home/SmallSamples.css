@@ -1,0 +1,85 @@
+.SmallSamples {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+
+.SmallSamples-Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.SmallSamples {
+    text-align: center;
+}
+
+.SmallSamples-Container-Projects {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+/* 
+ * LG Tablet
+*/
+@media only screen and (max-width: 1024px) {
+    .SmallSamples {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .SmallSamples-Container-Projects {
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+    }
+}
+
+/* 
+ * Tablet
+*/
+@media only screen and (max-width: 768px) {
+    .SmallSamples {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .SmallSamples-Container-Projects {
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+    }
+}
+
+/* 
+ * SM Mobile
+*/
+@media only screen and (max-width: 640px) {
+    .SmallSamples {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .SmallSamples-Container-Projects {
+        flex-direction: column;
+        gap: 60px;
+    }
+}
+
+/* 
+ * Mobile
+*/
+@media only screen and (max-width: 475px) {
+    .SmallSamples {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .SmallSamples-Container-Projects {
+        flex-direction: column;
+        gap: 60px;
+    }
+}

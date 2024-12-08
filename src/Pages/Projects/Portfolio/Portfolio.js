@@ -13,7 +13,7 @@ const Content = {
     skills: ['JavaScript', 'React', 'Framer-Motion', 'Git', 'Git Pages'],
     Intro_Title: 'A Software Engineer',
     Description: [
-        'A front-end portfolio website to showcase projects and skillsets.',
+        'I designed and developed this portfolio website from the ground up, leveraging my skills in UI/UX design, React, HTML, and CSS. The site has undergone multiple iterations of refactoring and redesign to align with my evolving expertise and vision. As I continue to grow as a developer and designer, I am committed to refining and enhancing this portfolio, ensuring it reflects my ongoing journey and capabilities.',
     ],
     Link: 'https://54jin.github.io/personal-website/',
     Video: PortfolioVid

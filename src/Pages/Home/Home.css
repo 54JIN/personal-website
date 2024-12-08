@@ -1,5 +1,11 @@
 .Home {
     display: flex;
     flex-direction: column;
-    background-color: #214d3b;
+    /* background: radial-gradient(circle at top left, rgba(129, 127, 127, 0.8) , rgba(0, 0, 0, 0.05) 40%),
+                radial-gradient(circle at top right, rgba(129, 127, 127, 0.8), rgba(0, 0, 0, 0.05) 40%),
+                radial-gradient(circle at top center, rgba(129, 127, 127, 0.4), rgba(0, 0, 0, 0.05) 40%);
+    background-color: #000000;
+    background-blend-mode: screen; */
+    background-color: #000000;
+    margin: 0;
 }

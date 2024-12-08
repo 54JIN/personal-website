@@ -1,0 +1,101 @@
+.Featured {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.Featured-Container {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.Featured-Container h3 {
+    width: 430px;
+}
+
+/* 
+ * LG Tablet
+*/
+
+@media only screen and (max-width: 1024px) {
+    .Featured {
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .Featured-Container {
+        gap: 20px;
+    }
+    
+    .Featured-Container h3 {
+        width: auto;
+        text-align: center;
+    }
+}
+
+/* 
+ * Tablet
+*/
+
+@media only screen and (max-width: 768px) {
+    .Featured {
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .Featured-Container {
+        gap: 10px;
+    }
+    
+    .Featured-Container h3 {
+        width: auto;
+        text-align: center;
+    }
+}
+
+/* 
+ * SM Mobile
+*/
+
+@media only screen and (max-width: 640px) {
+    .Featured {
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .Featured-Container {
+        gap: 1px;
+    }
+    
+    .Featured-Container h3 {
+        width: auto;
+        text-align: center;
+    }
+}
+
+/* 
+ * Mobile
+*/
+
+@media only screen and (max-width: 475px) {
+    .Featured {
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .Featured-Container {
+        gap: 1px;
+    }
+    
+    .Featured-Container h3 {
+        width: auto;
+        text-align: center;
+    }
+}

@@ -1,252 +1,47 @@
-@media only screen and (min-width: 581px) {
-    .Experience {
-        display: flex;
-        flex-direction: column;
-        background-color: #214d3b;
-    }
-    
-    .Experience-Header {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        align-items: center;
-        height: 20vw;
-    }
-    
-    .Experience-Header h1 {
-        font-family:sans-serif;
-        font-size: 6vw;
-        text-align: center;
-        margin-top: 0.5vw;
-        margin-bottom: 0.5vw;
-        color: #CCF382;
-    }
-    
-    .Experience-Header p {
-        font-family:sans-serif;
-        font-size: 1.3vw;
-        text-align: center;
-        line-height: 2vw;
-        margin-top: 0.5vw;
-        margin-bottom: 0.5vw;
-        width: 40vw;
-        color: #e9fff2;
-    }
-    
-    .Experience-Content-Wrapper {
-        display: flex;
-        flex-direction: column;
-        padding-top: 10vw;
-        width: 89vw;
-        padding-left: 5vw;
-        padding-right: 5vw;
-    }
-    
-    .Experience-Content {
-        min-height: 400px;
-        margin-bottom: 5vw;
-        padding-left: 2vw;
-        padding-right: 2vw;
-        padding-bottom: 2vw;
-        border-radius: 2vw;
-        background-color:rgba(30,71,53,0.7);
-        -webkit-box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.15); box-shadow: 0px 0px 11px 3px rgba(0,0,0,0.15);
-        width: 38vw;
-    }
-
-    .Experience-Content-Right {
-        align-self: flex-end;
-    }
-
-    .Experience-Content h3 {
-        font-family:sans-serif;
-        font-size: 1.8vw;
-        margin-top: 2vw;
-        margin-bottom: 0.5vw;
-        color: #CCF382;
-    }
-    
-    .Experience-Content p {
-        font-family:sans-serif;
-        font-size: 1.4vw;
-        line-height: 2vw;
-        margin-top: 0.5vw;
-        margin-bottom: 0.5vw;
-        color: #eeeeee;
-    }
-
-    .Experience-Content-Description p {
-        font-family:sans-serif;
-        font-size: 1vw;
-        line-height: 2vw;
-        margin-top: 0.5vw;
-        margin-bottom: 0.5vw;
-        color: #e9fff2;
-    }
+.Experience {
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
 }
 
-/* !--- Mobile ---! */
-
-@media only screen and (max-width: 580px) {
-    .Experience {
-        display: flex;
-        flex-direction: column;
-        background-color: #214d3b;
-    }
-    
-    .Experience-Header {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        align-items: center;
-        height: 40vw;
-    }
-    
-    .Experience-Header h1 {
-        font-family:sans-serif;
-        font-size: 8vw;
-        text-align: center;
-        margin-top: 0.5vw;
-        margin-bottom: 0.5vw;
-        color: #CCF382;
-    }
-    
-    .Experience-Header p {
-        font-family:sans-serif;
-        font-size: 3vw;
-        text-align: center;
-        line-height: 5vw;
-        margin-top: 0.5vw;
-        margin-bottom: 0.5vw;
-        width: 70vw;
-        color: #e9fff2;
-    }
-    
-    .Experience-Content-Wrapper {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 10vw;
-        width: 99vw;
-    }
-    
-    .Experience-Content {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 10vw;
-        padding-left: 2vw;
-        padding-right: 2vw;
-        padding-bottom: 2vw;
-        border-radius: 2vw;
-        background-color:rgba(30,71,53,0.7);
-        -webkit-box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.15); box-shadow: 0px 0px 11px 3px rgba(0,0,0,0.15);
-        width: 90%;
-        height: 100%;
-    }
-
-    .Experience-Content h3 {
-        font-family:sans-serif;
-        font-size: 4.5vw;
-        margin-top: 5vw;
-        margin-bottom: 5vw;
-        color: #CCF382;
-    }
-    
-    .Experience-Content p {
-        font-family:sans-serif;
-        font-size: 4vw;
-        margin-top: 5vw;
-        margin-bottom: 5vw;
-        color: #eeeeee;
-    }
-
-    .Experience-Content-Description p {
-        font-family:sans-serif;
-        font-size: 4vw;
-        margin-top: 0px;
-        margin-bottom: 3vw;
-        color: #e9fff2;
-    }
+.Experience-resume {
+  display: flex;
+  flex-direction: column;
+  gap: 220px;
 }
 
+/* 
+ * LG Tablet
+*/
+@media only screen and (max-width: 1024px) {
+  .Experience-resume {
+    gap: 60px;
+  }
+}
+
+/* 
+ * Tablet
+*/
+@media only screen and (max-width: 768px) {
+  .Experience-resume {
+    gap: 60px;
+  }
+}
+
+/* 
+ * SM Mobile
+*/
+@media only screen and (max-width: 640px) {
+  .Experience-resume {
+    gap: 60px;
+  }
+}
+
+/* 
+ * Mobile
+*/
 @media only screen and (max-width: 475px) {
-    .Experience {
-        display: flex;
-        flex-direction: column;
-        background-color: #214d3b;
-    }
-    
-    .Experience-Header {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        align-items: center;
-        height: 65vw;
-    }
-    
-    .Experience-Header h1 {
-        font-family:sans-serif;
-        font-size: 8vw;
-        text-align: center;
-        margin-top: 1vw;
-        margin-bottom: 1vw;
-        color: #CCF382;
-    }
-    
-    .Experience-Header p {
-        font-family:sans-serif;
-        font-size: 5vw;
-        text-align: center;
-        line-height: 9vw;
-        margin-top: 0.5vw;
-        margin-bottom: 0.5vw;
-        width: 70vw;
-        color: #e9fff2;
-    }
-    
-    .Experience-Content-Wrapper {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 10vw;
-        width: 99vw;
-    }
-    
-    .Experience-Content {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 10vw;
-        padding-left: 2vw;
-        padding-right: 2vw;
-        padding-bottom: 2vw;
-        border-radius: 2vw;
-        background-color:rgba(30,71,53,0.7);
-        -webkit-box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.15); box-shadow: 0px 0px 11px 3px rgba(0,0,0,0.15);
-        width: 90%;
-        height: 100%;
-    }
-
-    .Experience-Content h3 {
-        font-family:sans-serif;
-        font-size: 4.5vw;
-        margin-top: 5vw;
-        margin-bottom: 5vw;
-        color: #CCF382;
-    }
-    
-    .Experience-Content p {
-        font-family:sans-serif;
-        font-size: 4vw;
-        margin-top: 5vw;
-        margin-bottom: 5vw;
-        color: #eeeeee;
-    }
-
-    .Experience-Content-Description p {
-        font-family:sans-serif;
-        font-size: 4vw;
-        margin-top: 0px;
-        margin-bottom: 3vw;
-        color: #e9fff2;
-    }
+  .Experience-resume {
+    gap: 60px;
+  }
 }

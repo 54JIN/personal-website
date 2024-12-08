@@ -1,12 +1,25 @@
+//Images
+import DigitalFactoryImg from "../Images/DigitalFactoryImg.svg";
+import HeadstarterAIImg from "../Images/HeadstarterAIImg.svg";
+import GAFImg from "../Images/GAFImg.svg";
+import RUMADImg from "../Images/RUMADImg.svg";
+
 const resume = [
     {
-        Company: "Digital Factory",
+        Company: "Digital Factory, Inc",
         Position: "Backend Developer Intern",
         startDate: "Aug. 2024",
         endDate: "Present",
         details: [
-            "Newly Started, wait for updates!!",
-        ]
+            `Accomplished a 40% improvement in component rendering performance and a 30% boost in team
+            productivity by co-leading the migration from a legacy Ruby on Rails user management portal to a
+            modern tech stack with React, NextJS, TypeScript, Tailwind CSS, and DaisyUI.`,
+            `Achieved a 30% reduction in geofencing data processing time and a 25% scalability enhancement by
+            redesigning PostgreSQL schemas and optimizing REST API CRUD operations.`,
+            `Reduced developer onboarding time by 40% by modernizing Docker configurations, enabling seamless
+            containerization and streamlining setup processes.`,
+        ],
+        image: DigitalFactoryImg
     },
     {
         Company: "Headstarter AI",
@@ -14,9 +27,14 @@ const resume = [
         startDate: "July. 2024",
         endDate: "Sept. 2024",
         details: [
-            "Developed and launched a MERN stack application, using Git and Heroku, to connect micro influencers with local vendors, achieving 1,000 account creations.",
-            "Implemented a pantry tracker, utilizing Next.js & integrating GCP & OpenAI for intelligent suggestions based on ingredient availability, saving users an average of 30 minutes weekly on meal planning.",
-        ]
+            `Increased platform sign-ups by 1,000+ accounts by developing a responsive video transcription platform
+            using React, Next.js, TypeScript, Tailwind CSS, and DaisyUI.`,
+            `Reduced customer inquiry processing times by 50% by creating a multimodal complaint analysis tool
+            powered by Google Cloud APIs and OpenAI.`,
+            `Enhanced backend efficiency, accelerating content delivery by 60% through optimizing Flask-based data
+            pipelines and PostgreSQL queries integrated with LinkedIn.`,
+        ],
+        image: HeadstarterAIImg
     },
     {
         Company: "GAF Materials Corporation",
@@ -29,7 +47,8 @@ const resume = [
             "Built an automated system for extracting and structuring competitor data, ensuring 100% accuracy and seamless integration with Google Sheets, improving analysis efficiency by 75%.",
             "Identified and resolved a major data vulnerability on the customer site, safeguarding sensitive contractor information and significantly enhancing data security.",
             "Collaborated with colleagues and clients on design, product management, and process improvements with agile work methodologies, resulting in greater operational efficiency."
-        ]
+        ],
+        image: GAFImg
     },
     {
         Company: "RUMAD",
@@ -37,10 +56,14 @@ const resume = [
         startDate: "Feb. 2021",
         endDate: "Dec. 2021",
         details: [
-            "Developed and launched interactive UI components for a vacation app using front-end development techniques utilizing React.js, SwiftUI, & Android Studio, which enhanced user engagement by 35%.",
-            "Documented software designs & developments, contributed to design of architecture, & code reviews.",
-            "Optimized software performance through efficient coding techniques & testing, achieving a 20% reduction in load times and a 45% decrease in system crashes, significantly improving user experience.",
-        ]
+            `Reduced response times by 30% and database query times by 20% by developing RESTful CRUD
+            operations, integrating JWT authentication, and designing MongoDB schemas for a vacation platform.`,
+            `Enhanced user engagement by 30% by creating a real-time chat application with Socket.IO and leading
+            UI/UX design initiatives.`,
+            `Improved platform reliability by 45% by introducing Jest-based unit testing to minimize system crashes.`,
+            `Improved site performance by 20% by optimizing React component rendering and reducing load times.`,
+        ],
+        image: RUMADImg
     }
 ]
 

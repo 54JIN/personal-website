@@ -1,0 +1,141 @@
+.SampleProject {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #141414;
+    width: 400px;
+    border-radius: 15px;
+}
+
+.SampleProject-Image {
+    display: flex;
+    height: 350px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.SampleProject-Image img {
+    width: 100%;
+}
+
+.SampleProject-Content {
+    height: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: radial-gradient(
+      circle at top left,
+      rgba(129, 127, 127, 0.2),
+      rgba(20, 20, 20, 1) 60%
+    ),
+    radial-gradient(
+      circle at bottom right,
+      rgba(129, 127, 127, 0.8),
+      rgba(20, 20, 20, 1) 20%
+    );
+}
+
+/* 
+ * LG Tablet
+*/
+@media only screen and (max-width: 1440px) {
+    .SampleProject {
+        width: 350px;
+    }
+    
+    .SampleProject-Image {
+        height: 330px;
+    }
+    
+    .SampleProject-Content {
+        height: 230px;
+    }
+}
+
+/* 
+ * XL Tablet
+*/
+@media only screen and (max-width: 1280px) {
+    .SampleProject {
+        width: 290px;
+    }
+    
+    .SampleProject-Image {
+        height: 330px;
+    }
+    
+    .SampleProject-Content {
+        height: 250px;
+    }
+}
+
+/* 
+ * LG Tablet
+*/
+@media only screen and (max-width: 1024px) {
+    .SampleProject {
+        width: 400px;
+    }
+    
+    .SampleProject-Image {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        height: 330px;
+    }
+    
+    .SampleProject-Content {
+        height: 200px;
+    }
+}
+
+/* 
+ * Tablet
+*/
+@media only screen and (max-width: 768px) {
+    .SampleProject {
+        width: 65%;
+    }
+    
+    .SampleProject-Image {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        height: 330px;
+    }
+    
+    .SampleProject-Content {
+        height: 170px;
+    }
+}
+
+/* 
+ * SM Mobile
+*/
+@media only screen and (max-width: 640px) {
+    .SampleProject {
+        width: 100%;
+    }
+    
+    .SampleProject-Image {
+        height: 330px;
+    }
+    
+    .SampleProject-Content {
+        height: 150px;
+    }
+}
+
+/* 
+ * Mobile
+*/
+@media only screen and (max-width: 475px) {
+    .SampleProject {
+        width: 100%;
+    }
+    
+    .SampleProject-Image {
+        height: 330px;
+    }
+    
+    .SampleProject-Content {
+        height: 150px;
+    }
+}

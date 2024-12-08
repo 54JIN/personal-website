@@ -8,7 +8,6 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 //Imported Component Pages
 import App from './App';
-import About from './Pages/About/About';
 import Experience from './Pages/Experience/Experience';
 import Contact from './Pages/Contact/Contact';
 import Pallets from './Pages/Projects/Pallets/Pallets';
@@ -23,11 +22,6 @@ const router = createBrowserRouter([
   {
     path: '/personal-website',
     element: <App />,
-    errorElement: <div>404 Not Found</div>
-  },
-  {
-    path: '/personal-website/about',
-    element: <About />,
     errorElement: <div>404 Not Found</div>
   },
   {

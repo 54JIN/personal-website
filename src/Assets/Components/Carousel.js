@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 
 import "./Carousel.css";
+import "../Styles/global.css";
 
 function Carousel({ Contents }) {
   const [current, setCurrent] = useState(0);
@@ -48,8 +49,8 @@ function Carousel({ Contents }) {
               >
                 <div className="Card-blueprint-Overlay">
                   <div className="Card-blueprint-Overlay-Content">
-                    <h2 className="Card-blueprint-Title">{card.title}</h2>
-                    <p className="Card-blueprint-Description">{card.description}</p>
+                    <h2 className="Card-blueprint-Title text-primary text-2xl">{card.title}</h2>
+                    <p className="Card-blueprint-Description text-secondary text-md">{card.description}</p>
                   </div>
                 </div>
               </div>
